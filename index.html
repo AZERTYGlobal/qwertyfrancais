@@ -1,0 +1,668 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/favicon-qwerty-francais.png">
+  <title>QWERTY Français : É majuscule, Cédille, Accents | QWERTY pour Francophones</title>
+  <meta name="description"
+    content="Tapez É majuscule, Ç majuscule, œ, « » et tous les accents directement sur votre clavier QWERTY. La disposition idéale pour les développeurs et expats francophones.">
+  <meta name="keywords" content="qwerty français, qwerty international, accents français qwerty, é majuscule qwerty, clavier développeur français, qwerty us international, typographie française">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://qwertyfrancais.fr/">
+  <link rel="alternate" hreflang="fr" href="https://qwertyfrancais.fr/">
+  <link rel="alternate" hreflang="x-default" href="https://qwertyfrancais.fr/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qwertyfrancais.fr/">
+  <meta property="og:title" content="QWERTY Français : É majuscule, Cédille, Accents pour QWERTY">
+  <meta property="og:description"
+    content="La solution pour taper français sur un clavier QWERTY sans perdre vos repères de développeur. Gratuit pour Windows.">
+  <meta property="og:image" content="https://qwertyfrancais.fr/assets/og-image.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="QWERTY Français">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://qwertyfrancais.fr/">
+  <meta name="twitter:title" content="QWERTY Français : É majuscule, Cédille, Accents pour QWERTY">
+  <meta name="twitter:description"
+    content="La solution pour taper français sur un clavier QWERTY sans perdre vos repères de développeur. Gratuit pour Windows.">
+  <meta name="twitter:image" content="https://qwertyfrancais.fr/assets/og-image.png">
+  <meta name="twitter:site" content="@AntoineOlivier">
+  <meta name="twitter:creator" content="@AntoineOlivier">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="tester/keyboard.css">
+
+  <!-- Theme (load early to prevent flash) -->
+  <script src="js/theme.js"></script>
+
+  <!-- Schema.org SoftwareApplication -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "QWERTY Français",
+      "applicationCategory": "UtilitiesApplication",
+      "applicationSubCategory": "Keyboard Layout",
+      "operatingSystem": "Windows 10, Windows 11",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "description": "Disposition de clavier QWERTY adaptée pour le français. Permet de taper É, È, Ç, À et d'accéder aux symboles de programmation facilement.",
+      "softwareVersion": "2026",
+      "author": {
+        "@type": "Person",
+        "name": "Antoine Olivier"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Antoine Olivier",
+        "url": "https://qwertyfrancais.fr"
+      },
+      "downloadUrl": "https://qwertyfrancais.fr/download.html",
+      "softwareHelp": "https://qwertyfrancais.fr/guide.html",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "isAccessibleForFree": true,
+      "featureList": [
+        "Accès direct à É (via ;)",
+        "Majuscules accentuées : Verr. Maj + é = É, Verr. Maj + à = À",
+        "Cédille facile : AltGr + C = ç",
+        "Guillemets français : AltGr + Z/X = « »",
+        "Symboles de programmation { } [ ] | \\ sur la rangée de repos (AltGr)",
+        "Touches mortes intuitives pour accents rares et langues étrangères"
+      ],
+      "keywords": "QWERTY, clavier français, expats, développeurs"
+    }
+    </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "QWERTY Français",
+      "url": "https://qwertyfrancais.fr",
+      "description": "Le standard pour taper français sur un clavier QWERTY.",
+      "inLanguage": "fr",
+      "publisher": {
+        "@type": "Person",
+        "name": "Antoine Olivier"
+      }
+    }
+    </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+       <!-- <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY Français" class="header__logo-img"> -->
+       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">Français</span></span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="nav__link nav__link--active">Accueil</a>
+        <a href="download.html" class="nav__link">Télécharger</a>
+        <a href="guide.html" class="nav__link">Guide</a>
+        <a href="comparatif.html" class="nav__link">Comparatif</a>
+        <a href="feedback.html" class="nav__link">Feedback</a>
+        <div class="nav__dropdown">
+          <button class="nav__dropdown-toggle">Plus</button>
+          <div class="nav__dropdown-menu">
+            <a href="faq.html" class="nav__dropdown-item">FAQ</a>
+            <a href="presse.html" class="nav__dropdown-item">Presse</a>
+            <a href="licence.html" class="nav__dropdown-item">Licence</a>
+            <a href="mentions-legales.html" class="nav__dropdown-item">Mentions Légales</a>
+            <a href="a-propos.html" class="nav__dropdown-item">À propos</a>
+            <div style="height: 1px; background: var(--border-color); margin: var(--space-1) 0;"></div>
+            <a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank" class="nav__dropdown-item"
+              style="color: var(--color-accent);">Faire un don ❤️</a>
+          </div>
+        </div>
+      </nav>
+
+      <div style="display: flex; gap: var(--space-2);">
+        <button class="theme-toggle" aria-label="Changer le thème">
+          <span class="theme-toggle__icon--dark">🌙</span>
+          <span class="theme-toggle__icon--light">☀️</span>
+        </button>
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Tapez français sur votre QWERTY</h1>
+        <p
+          style="color: var(--text-secondary); font-size: var(--text-lg); margin-top: var(--space-2); margin-bottom: var(--space-4);">
+          Pour les développeurs et les expatriés qui ne veulent pas renoncer aux accents.
+        </p>
+
+        <p class="hero__subtitle" style="max-width: 100%;">
+          Accès direct à <strong>É</strong> • Majuscules accentuées faciles • Typographie parfaite<br>
+          Symboles dev inchangés • Caractères internationaux
+        </p>
+
+        <!-- Keyboard Map Preview (hover to see full) -->
+        <div class="hero__keyboard">
+          <img src="images/carte-simplifiee.svg" alt="Carte simplifiée du clavier QWERTY Français"
+            class="hero__keyboard-img hero__keyboard-img--simple">
+          <img src="images/carte-complete.svg" alt="Carte complète du clavier QWERTY Français"
+            class="hero__keyboard-img hero__keyboard-img--full">
+
+
+        </div>
+
+
+        <div class="hero__actions">
+          <button id="open-tester-btn" class="btn btn--success btn--lg">
+            <span>⌨️</span>
+            Essayer
+          </button>
+          <a href="download.html" class="btn btn--primary btn--lg">
+            <span>⬇️</span>
+            Télécharger
+          </a>
+          <a href="guide.html" class="btn btn--secondary btn--lg">
+            <span>📖</span>
+            Guide rapide
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Press Section
+    <section class="section" style="padding-top: 0; padding-bottom: var(--space-8);">
+      <div class="container" style="text-align: center;">
+        <p
+          style="color: var(--text-muted); font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: var(--space-4);">
+          Vu dans la presse
+        </p>
+        <div style="display: flex; justify-content: center; align-items: center; gap: var(--space-8);">
+          <a href="https://www.numerama.com/tech/477769-clavier-azerty-ameliore-quest-ce-qui-va-changer.html"
+            target="_blank">
+            <img src="assets/Logo-numerama.svg" alt="Numerama" class="press-logo" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Pourquoi QWERTY Français ?</h2>
+          <p class="section__subtitle">Le meilleur des deux mondes : la disposition US internationale, enrichie pour le français.</p>
+        </div>
+
+        <div class="benefits__grid">
+          <article class="card">
+            <div class="card__icon">🇺🇸</div>
+            <h3 class="card__title">Base QWERTY US 100% respectée</h3>
+            <p class="card__text">
+              Vos réflexes de développeur sont saufs. Les symboles <kbd>{</kbd> <kbd>}</kbd> <kbd>[</kbd> <kbd>]</kbd> <kbd>|</kbd> <kbd>\</kbd> sont exactement là où vous les attendez.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🤩</div>
+            <h3 class="card__title">É en accès direct</h3>
+            <p class="card__text">
+              La lettre la plus fréquente du français <kbd>é</kbd> remplace le <kbd>;</kbd>. Plus besoin de combinaisons tordues pour écrire "été".
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🔤</div>
+            <h3 class="card__title">Majuscules accentuées</h3>
+            <p class="card__text">
+              Le Verr. Maj est intelligent ! <kbd>CAPS</kbd> + <kbd>é</kbd> donne <kbd>É</kbd>. <kbd>CAPS</kbd> + <kbd>à</kbd> donne <kbd>À</kbd>. Simple et logique.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Wow Examples Section -->
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="section__header">
+          <h2 class="section__title">Exemples « Wow »</h2>
+          <p class="section__subtitle">Ce que vous pouvez faire en quelques touches.</p>
+        </div>
+
+        <div class="table-wrapper">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Caractère</th>
+                <th>QWERTY Français</th>
+                <th>QWERTY US International</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>é</strong> (é minuscule)</td>
+                <td><kbd>;</kbd> <em>(accès direct)</em> 🤩</td>
+                <td>' + e (touche morte) 🐢</td>
+              </tr>
+              <tr>
+                <td><strong>É</strong> (é majuscule)</td>
+                <td><kbd>CAPS</kbd> + <kbd>é</kbd> 🤯</td>
+                <td>' + Shift + E 😫</td>
+              </tr>
+              <tr>
+                <td><strong>ç</strong> (cédille)</td>
+                <td><kbd>AltGr</kbd> + <kbd>C</kbd> (logique !)</td>
+                <td>' + c (bizarre)</td>
+              </tr>
+              <tr>
+                <td><strong>{ } [ ]</strong> (code)</td>
+                <td><kbd>Shift</kbd> + <kbd>[</kbd> / <kbd>]</kbd> <em>(inchangé)</em> ✅</td>
+                <td><em>Inchangé</em></td>
+              </tr>
+              <tr>
+                <td><strong>« »</strong> guillemets</td>
+                <td><kbd>AltGr</kbd> + <kbd>Z</kbd> / <kbd>X</kbd></td>
+                <td>Alt + 0171 (impossible) 😤</td>
+              </tr>
+              <tr>
+                <td><strong>œ</strong> (e dans l'o)</td>
+                <td><kbd>AltGr</kbd> + <kbd>O</kbd></td>
+                <td>Alt + 0156 ou rien</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials (Section désactivée temporairement - sera réactivée avec de vrais commentaires)
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <h2 class="section__title" style="text-align: center;">Ils l'ont adopté</h2>
+        <p class="section__subtitle" style="text-align: center; margin-bottom: var(--space-8);">
+          Déjà des milliers d'utilisateurs convaincus.
+        </p>
+
+        <div class="benefits__grid">
+          <div class="card">
+            <div style="font-size: var(--text-lg); margin-bottom: var(--space-2);">⭐⭐⭐⭐⭐</div>
+            <p class="card__text" style="font-style: italic; margin-bottom: var(--space-4);">
+              "Enfin des majuscules accentuées simples ! Je ne peux plus revenir à l'ancien clavier Windows."
+            </p>
+            <p style="font-weight: 600; font-size: var(--text-sm);">— Sophie L., Rédactrice</p>
+          </div>
+
+          <div class="card">
+            <div style="font-size: var(--text-lg); margin-bottom: var(--space-2);">⭐⭐⭐⭐⭐</div>
+            <p class="card__text" style="font-style: italic; margin-bottom: var(--space-4);">
+              "Indispensable pour coder. Les accolades et crochets sur la rangée de repos, c'est un game changer."
+            </p>
+            <p style="font-weight: 600; font-size: var(--text-sm);">— Thomas M., Développeur</p>
+          </div>
+
+          <div class="card">
+            <div style="font-size: var(--text-lg); margin-bottom: var(--space-2);">⭐⭐⭐⭐⭐</div>
+            <p class="card__text" style="font-style: italic; margin-bottom: var(--space-4);">
+              "L'installation est super rapide et on s'habitue en quelques minutes. C'est logique et efficace."
+            </p>
+            <p style="font-weight: 600; font-size: var(--text-sm);">— Marc D., Étudiant</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Beta Status Section -->
+    <section class="beta-status"
+      style="background: var(--bg-secondary); border-top: 1px solid var(--border-color); color: var(--text-primary);">
+      <div class="container">
+        <span class="beta-status__badge" style="background: var(--color-primary); color: white;">Beta</span>
+        <p style="opacity: 0.9; margin-bottom: 0;">
+          QWERTY Français est en développement actif. Vos retours sont précieux !
+        </p>
+
+        <div class="beta-status__info">
+          <div class="beta-status__item">
+            <span>✅</span>
+            <span>Windows 7/8/10/11 • macOS 10.12+ • Linux</span>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--space-6);">
+          <a href="feedback.html" class="btn btn--secondary">
+            <span>💬</span>
+            Donner mon avis
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY Français - Disposition idéale"
+              style="height: 130px; width: auto;">
+          </div>
+          <p class="footer__tagline">
+            Le QWERTY amélioré, pensé pour les francophones.
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="download.html">Télécharger</a></li>
+              <li><a href="guide.html">Guide rapide</a></li>
+              <li><a href="comparatif.html">Comparatif</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4>Ressources</h4>
+            <ul>
+              <li><a href="images/carte-complete.svg" target="_blank">Carte complète</a></li>
+              <li><a href="images/carte-simplifiee.svg" target="_blank">Carte simplifiée</a></li>
+              <li><a href="https://github.com/AZERTYGlobal/website" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+
+          <!--
+          <div class="footer__column">
+             <h4>Astuces</h4>
+             <ul>
+               <li><a href="guide.html#maj">Faire un É majuscule</a></li>
+               <li><a href="guide.html#cedille">Faire un Ç majuscule</a></li>
+             </ul>
+           </div>
+           -->
+
+          <div class="footer__column">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="mailto:contact@azerty.global">Email</a></li>
+              <li><a href="https://discord.gg/nYknqshJz3" target="_blank">Discord</a></li>
+              <li><a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank"
+                  style="color: var(--color-accent); font-weight: 600;">Faire un don ❤️</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2017–2026 QWERTY Français — Antoine OLIVIER</span>
+        <span>
+          <a href="mentions-legales.html" style="color: inherit; text-decoration: none;">Mentions Légales</a> •
+          Fait avec ❤️ pour les Français
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Keyboard Tester Modal -->
+  <div id="tester-modal" class="tester-modal" style="display: none;">
+    <div class="tester-modal__overlay"></div>
+    <div class="tester-modal__content">
+      <button class="tester-modal__close" aria-label="Fermer">&times;</button>
+
+      <!-- All content wrapped in keyboard-wrapper so keyboard defines width -->
+      <div class="tester-modal__keyboard-wrapper">
+        <!-- Mode Tabs -->
+        <div class="modal-tabs" style="display: flex; gap: 8px; margin-bottom: 12px;">
+          <button id="tab-libre" class="modal-tab modal-tab--active"
+            style="flex: 1; padding: 10px 16px; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; background: var(--color-accent); color: var(--color-primary-dark);">
+            ⌨️ Libre
+          </button>
+          <button id="tab-lessons" class="modal-tab"
+            style="flex: 1; padding: 10px 16px; border: 1px solid var(--border-color); border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; background: var(--bg-secondary); color: var(--text-primary);">
+            🎓 Leçons
+          </button>
+        </div>
+
+        <!-- Libre Mode Content -->
+        <div id="mode-libre" class="modal-mode">
+          <!-- Character Search (at top) -->
+          <div class="modal-search-container" style="position: relative; width: 100%; margin-bottom: 12px;">
+            <input type="text" id="modal-search-input" class="modal-search-input"
+              placeholder="🔍 Rechercher un caractère..." autocomplete="off"
+              style="width: 100%; padding: 12px 15px; font-size: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); outline: none; box-sizing: border-box;">
+            <div class="modal-search-results" id="modal-search-results" hidden
+              style="position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; max-height: 200px; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 100;">
+            </div>
+          </div>
+
+          <div class="tester-modal__output">
+            <div id="modal-output" class="output-text" contenteditable="true"
+              data-placeholder="Tapez au clavier ou cliquez sur les touches..."></div>
+          </div>
+        </div>
+
+        <!-- Lessons Mode Content -->
+        <div id="mode-lessons" class="modal-mode" style="display: none;">
+          <!-- Lesson Navigation -->
+          <div id="lesson-nav" style="margin-bottom: 12px;">
+            <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
+              <select id="lesson-module-select"
+                style="flex: 1; padding: 10px 12px; border: 1px solid var(--border-color); border-radius: 8px; background: var(--bg-secondary); color: var(--text-primary); font-size: 14px; cursor: pointer;">
+                <option value="">Choisir un module...</option>
+              </select>
+            </div>
+            <div id="lesson-list" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
+          </div>
+
+          <!-- Exercise Area -->
+          <div id="lesson-exercise" style="display: none;">
+            <div
+              style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px; margin-bottom: 12px;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span id="lesson-title" style="font-weight: 600; color: var(--text-primary);"></span>
+                <span id="lesson-progress" style="font-size: 12px; color: var(--text-secondary);"></span>
+              </div>
+              <p id="lesson-instruction" style="font-size: 13px; color: var(--text-secondary); margin: 0 0 12px 0;"></p>
+
+              <!-- Target text to type -->
+              <div id="lesson-target"
+                style="font-family: monospace; font-size: 18px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; margin-bottom: 8px; white-space: pre-wrap; line-height: 1.6;">
+              </div>
+
+              <!-- User input -->
+              <div id="lesson-input" class="output-text" contenteditable="true" data-placeholder="Tapez ici..."
+                style="font-family: monospace; font-size: 18px; background: var(--bg-card); border: 2px solid var(--color-accent); border-radius: 6px; padding: 12px; min-height: 1.5em; outline: none;">
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 8px;">
+              <button id="lesson-prev"
+                style="padding: 8px 16px; border: 1px solid var(--border-color); border-radius: 6px; background: var(--bg-secondary); color: var(--text-primary); cursor: pointer;">←
+                Précédent</button>
+              <button id="lesson-restart"
+                style="padding: 8px 16px; border: 1px solid var(--border-color); border-radius: 6px; background: var(--bg-secondary); color: var(--text-primary); cursor: pointer;">🔄
+                Recommencer</button>
+              <button id="lesson-hint"
+                style="padding: 8px 16px; border: 1px solid var(--border-color); border-radius: 6px; background: var(--bg-secondary); color: var(--text-primary); cursor: pointer;">💡
+                Indice</button>
+              <button id="lesson-next"
+                style="flex: 1; padding: 8px 16px; border: none; border-radius: 6px; background: var(--color-accent); color: var(--color-primary-dark); font-weight: 600; cursor: pointer;">Suivant
+                →</button>
+            </div>
+          </div>
+
+          <!-- Welcome screen when no lesson selected -->
+          <div id="lesson-welcome" style="text-align: center; padding: 20px;">
+            <div style="font-size: 48px; margin-bottom: 12px;">🎓</div>
+            <h3 style="margin: 0 0 8px 0; color: var(--text-primary);">Apprenez QWERTY Français</h3>
+            <p style="color: var(--text-secondary); margin: 0;">Choisissez un module ci-dessus pour commencer</p>
+          </div>
+        </div>
+
+        <!-- Keyboard inside wrapper to define width -->
+        <div id="modal-keyboard-container" class="keyboard-container" style="margin-top: 12px;"></div>
+      </div>
+
+      <div class="status-bar">
+        <span class="status-item" id="modal-status-shift">● Maj.</span>
+        <span class="status-item" id="modal-status-caps">● Verr. Maj.</span>
+        <span class="status-item" id="modal-status-altgr">● AltGr</span>
+        <span class="status-item" id="modal-status-deadkey">● Touche morte : <span
+            id="modal-deadkey-name">-</span></span>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Tester Modal Styles */
+    .tester-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tester-modal__overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    .tester-modal__content {
+      position: relative;
+      background: var(--bg-primary);
+      border-radius: 16px;
+      padding: var(--space-3);
+      max-width: 95vw;
+      width: fit-content;
+      max-height: 95vh;
+      overflow: auto;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .tester-modal__close {
+      position: absolute;
+      top: var(--space-3);
+      right: var(--space-3);
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: var(--text-secondary);
+      line-height: 1;
+      padding: var(--space-1);
+      transition: color 0.2s;
+    }
+
+    .tester-modal__close:hover {
+      color: var(--text-primary);
+    }
+
+    .tester-modal__keyboard-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+    }
+
+    .tester-modal__output {
+      width: fit-content;
+      min-width: 100%;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 15px;
+      margin-bottom: var(--space-2);
+      box-sizing: border-box;
+    }
+
+    .tester-modal .output-text {
+      font-size: 18px;
+      font-family: monospace;
+      white-space: pre-wrap;
+      word-break: break-all;
+      overflow-wrap: break-word;
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 3.9em;
+      line-height: 1.3;
+      outline: none;
+      min-height: 1.3em;
+      caret-color: var(--color-primary);
+      width: 0;
+      min-width: 100%;
+    }
+
+    .tester-modal .output-text:empty::before {
+      content: attr(data-placeholder);
+      color: var(--text-muted);
+    }
+
+    .tester-modal .status-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      justify-content: center;
+      margin-top: var(--space-4);
+      font-size: var(--text-sm);
+      color: var(--text-muted);
+    }
+
+    .tester-modal .status-item {
+      opacity: 0.5;
+    }
+
+    .tester-modal .status-item.on {
+      opacity: 1;
+      color: var(--color-primary);
+    }
+
+    .tester-modal .keyboard-container {
+      border: none;
+      box-shadow: none;
+      background: transparent;
+    }
+  </style>
+
+  <!-- Scripts -->
+  <script src="js/layout-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/easter-eggs.js"></script>
+  <script type="module">
+    import { initTesterModal } from './js/tester-modal.js';
+    initTesterModal();
+  </script>
+</body>
+
+</html>
+
+

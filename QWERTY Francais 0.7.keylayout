@@ -1,0 +1,1278 @@
+<?xml version="1.1" encoding="utf-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by KbdEdit version 25.1.0 2320-3562 on 2026-01-24 at 18:39 (GMT+0)-->
+<keyboard group="126" id="-20043" maxout="1" name="QWERTY Français 0.7">
+	<layouts>
+		<layout first="0" last="0" mapSet="16c" modifiers="f4"/>
+	</layouts>
+	<modifierMap id="f4" defaultIndex="0">
+		<keyMapSelect mapIndex="0">
+			<modifier keys=""/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="caps"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="anyShift"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="caps anyShift"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption caps"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="anyOption anyShift"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyOption caps anyShift"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="8">
+			<modifier keys="anyControl"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="9">
+			<modifier keys="anyControl anyShift"/>
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="16c">
+		<keyMap index="0">
+			<key code="0" action="a"/>
+			<key code="1" action="s"/>
+			<key code="2" action="d"/>
+			<key code="3" action="f"/>
+			<key code="4" action="h"/>
+			<key code="5" action="g"/>
+			<key code="6" action="z"/>
+			<key code="7" action="x"/>
+			<key code="8" action="c"/>
+			<key code="9" action="v"/>
+			<key code="10" action="&#x003C;"/>
+			<key code="11" action="b"/>
+			<key code="12" action="q"/>
+			<key code="13" action="w"/>
+			<key code="14" action="e"/>
+			<key code="15" action="r"/>
+			<key code="16" action="y"/>
+			<key code="17" action="t"/>
+			<key code="18" action="1"/>
+			<key code="19" action="2"/>
+			<key code="20" action="3"/>
+			<key code="21" action="4"/>
+			<key code="22" action="6"/>
+			<key code="23" action="5"/>
+			<key code="24" action="="/>
+			<key code="25" action="9"/>
+			<key code="26" action="7"/>
+			<key code="27" action="-"/>
+			<key code="28" action="8"/>
+			<key code="29" action="0"/>
+			<key code="30" action="Entering CIRCONFLEXE"/>
+			<key code="31" action="o"/>
+			<key code="32" action="u"/>
+			<key code="33" action="Entering ACCENT GRAVE"/>
+			<key code="34" action="i"/>
+			<key code="35" action="p"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="l"/>
+			<key code="38" action="j"/>
+			<key code="39" output="'"/>
+			<key code="40" action="k"/>
+			<key code="41" action="é"/>
+			<key code="42" action="Entering TILDE"/>
+			<key code="43" output=","/>
+			<key code="44" action="/"/>
+			<key code="45" action="n"/>
+			<key code="46" action="m"/>
+			<key code="47" action="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="`"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="65" action="."/>
+			<key code="67" action="*"/>
+			<key code="69" action="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="75" action="/"/>
+			<key code="76" output="&#x000D;"/>
+			<key code="78" action="-"/>
+			<key code="81" output="="/>
+			<key code="82" action="0"/>
+			<key code="83" action="1"/>
+			<key code="84" action="2"/>
+			<key code="85" action="3"/>
+			<key code="86" action="4"/>
+			<key code="87" action="5"/>
+			<key code="88" action="6"/>
+			<key code="89" action="7"/>
+			<key code="91" action="8"/>
+			<key code="92" action="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="1">
+			<key code="0" action="A"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="F"/>
+			<key code="4" action="H"/>
+			<key code="5" action="G"/>
+			<key code="6" action="Z"/>
+			<key code="7" action="X"/>
+			<key code="8" action="C"/>
+			<key code="9" action="V"/>
+			<key code="10" action="&#x003C;"/>
+			<key code="11" action="B"/>
+			<key code="12" action="Q"/>
+			<key code="13" action="W"/>
+			<key code="14" action="E"/>
+			<key code="15" action="R"/>
+			<key code="16" action="Y"/>
+			<key code="17" action="T"/>
+			<key code="18" action="1"/>
+			<key code="19" action="2"/>
+			<key code="20" action="3"/>
+			<key code="21" action="4"/>
+			<key code="22" action="6"/>
+			<key code="23" action="5"/>
+			<key code="24" action="="/>
+			<key code="25" action="9"/>
+			<key code="26" action="7"/>
+			<key code="27" action="-"/>
+			<key code="28" action="8"/>
+			<key code="29" action="0"/>
+			<key code="30" action="Entering CIRCONFLEXE"/>
+			<key code="31" action="O"/>
+			<key code="32" action="U"/>
+			<key code="33" action="Entering ACCENT GRAVE"/>
+			<key code="34" action="I"/>
+			<key code="35" action="P"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="L"/>
+			<key code="38" action="J"/>
+			<key code="39" output="'"/>
+			<key code="40" action="K"/>
+			<key code="41" action="é"/>
+			<key code="42" action="Entering TILDE"/>
+			<key code="43" output=","/>
+			<key code="44" action="/"/>
+			<key code="45" action="N"/>
+			<key code="46" action="M"/>
+			<key code="47" action="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="`"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="65" action="."/>
+			<key code="67" action="*"/>
+			<key code="69" action="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="75" action="/"/>
+			<key code="76" output="&#x000D;"/>
+			<key code="78" action="-"/>
+			<key code="81" output="="/>
+			<key code="82" action="0"/>
+			<key code="83" action="1"/>
+			<key code="84" action="2"/>
+			<key code="85" action="3"/>
+			<key code="86" action="4"/>
+			<key code="87" action="5"/>
+			<key code="88" action="6"/>
+			<key code="89" action="7"/>
+			<key code="91" action="8"/>
+			<key code="92" action="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="2">
+			<key code="0" action="A"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="F"/>
+			<key code="4" action="H"/>
+			<key code="5" action="G"/>
+			<key code="6" action="Z"/>
+			<key code="7" action="X"/>
+			<key code="8" action="C"/>
+			<key code="9" action="V"/>
+			<key code="10" action="&#x003E;"/>
+			<key code="11" action="B"/>
+			<key code="12" action="Q"/>
+			<key code="13" action="W"/>
+			<key code="14" action="E"/>
+			<key code="15" action="R"/>
+			<key code="16" action="Y"/>
+			<key code="17" action="T"/>
+			<key code="18" output="!"/>
+			<key code="19" action="@"/>
+			<key code="20" output="#"/>
+			<key code="21" action="$"/>
+			<key code="22" action="^"/>
+			<key code="23" action="%"/>
+			<key code="24" action="+"/>
+			<key code="25" action="("/>
+			<key code="26" output="&#x0026;"/>
+			<key code="27" action="_"/>
+			<key code="28" action="*"/>
+			<key code="29" action=")"/>
+			<key code="30" action="Entering TRÉMA"/>
+			<key code="31" action="O"/>
+			<key code="32" action="U"/>
+			<key code="33" action="Entering ACCENT AIGU"/>
+			<key code="34" action="I"/>
+			<key code="35" action="P"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="L"/>
+			<key code="38" action="J"/>
+			<key code="39" output='"'/>
+			<key code="40" action="K"/>
+			<key code="41" output="É"/>
+			<key code="43" output=";"/>
+			<key code="44" output="?"/>
+			<key code="45" action="N"/>
+			<key code="46" action="M"/>
+			<key code="47" action=":"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="~"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="65" action="."/>
+			<key code="67" action="*"/>
+			<key code="69" action="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="75" action="/"/>
+			<key code="76" output="&#x000D;"/>
+			<key code="78" action="-"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="3">
+			<key code="0" action="a"/>
+			<key code="1" action="s"/>
+			<key code="2" action="d"/>
+			<key code="3" action="f"/>
+			<key code="4" action="h"/>
+			<key code="5" action="g"/>
+			<key code="6" action="z"/>
+			<key code="7" action="x"/>
+			<key code="8" action="c"/>
+			<key code="9" action="v"/>
+			<key code="10" action="&#x003E;"/>
+			<key code="11" action="b"/>
+			<key code="12" action="q"/>
+			<key code="13" action="w"/>
+			<key code="14" action="e"/>
+			<key code="15" action="r"/>
+			<key code="16" action="y"/>
+			<key code="17" action="t"/>
+			<key code="18" output="!"/>
+			<key code="19" action="@"/>
+			<key code="20" output="#"/>
+			<key code="21" action="$"/>
+			<key code="22" action="^"/>
+			<key code="23" action="%"/>
+			<key code="24" action="+"/>
+			<key code="25" action="("/>
+			<key code="26" output="&#x0026;"/>
+			<key code="27" action="_"/>
+			<key code="28" action="*"/>
+			<key code="29" action=")"/>
+			<key code="30" action="Entering TRÉMA"/>
+			<key code="31" action="o"/>
+			<key code="32" action="u"/>
+			<key code="33" action="Entering ACCENT AIGU"/>
+			<key code="34" action="i"/>
+			<key code="35" action="p"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="l"/>
+			<key code="38" action="j"/>
+			<key code="39" output='"'/>
+			<key code="40" action="k"/>
+			<key code="41" output="É"/>
+			<key code="43" output=";"/>
+			<key code="44" output="?"/>
+			<key code="45" action="n"/>
+			<key code="46" action="m"/>
+			<key code="47" action=":"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action=" "/>
+			<key code="50" action="~"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="65" action="."/>
+			<key code="67" action="*"/>
+			<key code="69" action="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="75" action="/"/>
+			<key code="76" output="&#x000D;"/>
+			<key code="78" action="-"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="4">
+			<key code="0" action="æ"/>
+			<key code="2" output="{"/>
+			<key code="3" output="}"/>
+			<key code="4" action="|"/>
+			<key code="5" output="\"/>
+			<key code="6" output="«"/>
+			<key code="7" output="»"/>
+			<key code="8" action="ç"/>
+			<key code="10" output="≤"/>
+			<key code="11" output="ß"/>
+			<key code="14" output="€"/>
+			<key code="16" output="¥"/>
+			<key code="17" output="–"/>
+			<key code="18" output="¡"/>
+			<key code="21" action="£"/>
+			<key code="24" action="Entering SYMBOLES SCIENTIFIQUES"/>
+			<key code="27" output="‑"/>
+			<key code="31" output="œ"/>
+			<key code="38" output="["/>
+			<key code="39" output="’"/>
+			<key code="40" output="]"/>
+			<key code="43" action="&#x003C;"/>
+			<key code="44" output="¿"/>
+			<key code="47" action="&#x003E;"/>
+			<key code="49" output=" "/>
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="5">
+			<key code="0" action="Æ"/>
+			<key code="2" output="{"/>
+			<key code="3" output="}"/>
+			<key code="4" action="|"/>
+			<key code="5" output="\"/>
+			<key code="6" output="«"/>
+			<key code="7" output="»"/>
+			<key code="8" output="Ç"/>
+			<key code="10" output="≤"/>
+			<key code="11" output="ẞ"/>
+			<key code="14" output="€"/>
+			<key code="16" output="¥"/>
+			<key code="17" output="–"/>
+			<key code="18" output="¡"/>
+			<key code="21" action="£"/>
+			<key code="24" action="Entering SYMBOLES SCIENTIFIQUES"/>
+			<key code="27" output="‑"/>
+			<key code="31" output="Œ"/>
+			<key code="38" output="["/>
+			<key code="39" output="’"/>
+			<key code="40" output="]"/>
+			<key code="43" action="&#x003C;"/>
+			<key code="44" output="¿"/>
+			<key code="47" action="&#x003E;"/>
+			<key code="49" output=" "/>
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="6">
+			<key code="0" action="Æ"/>
+			<key code="6" output="“"/>
+			<key code="7" output="”"/>
+			<key code="8" output="Ç"/>
+			<key code="10" output="≥"/>
+			<key code="11" output="ẞ"/>
+			<key code="17" output="—"/>
+			<key code="21" action="Entering SYMBOLES MONÉTAIRES"/>
+			<key code="31" output="Œ"/>
+			<key code="39" output="‘"/>
+			<key code="43" output="≤"/>
+			<key code="47" output="≥"/>
+			<key code="49" output=" "/>
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="7">
+			<key code="0" action="æ"/>
+			<key code="6" output="“"/>
+			<key code="7" output="”"/>
+			<key code="8" action="ç"/>
+			<key code="10" output="≥"/>
+			<key code="11" output="ß"/>
+			<key code="17" output="—"/>
+			<key code="21" action="Entering SYMBOLES MONÉTAIRES"/>
+			<key code="31" output="œ"/>
+			<key code="39" output="‘"/>
+			<key code="43" output="≤"/>
+			<key code="47" output="≥"/>
+			<key code="49" output=" "/>
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="8">
+			<key code="10" output="&#x001C;"/>
+			<key code="30" output="&#x001D;"/>
+			<key code="33" output="&#x001B;"/>
+			<key code="36" output="&#x000A;"/>
+			<key code="42" output="&#x001C;"/>
+			<key code="49" action=" "/>
+			<key code="51" output="&#x007F;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="76" output="&#x000A;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="9">
+			<key code="22" output="&#x001E;"/>
+			<key code="27" output="&#x001F;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+	</keyMapSet>
+	<actions>
+		<action id="Entering ACCENT AIGU">
+			<when state="none" next="ACCENT AIGU"/>
+			<when state="ACCENT AIGU" output="́"/>
+		</action>
+		<action id="Entering ACCENT GRAVE">
+			<when state="none" next="ACCENT GRAVE"/>
+			<when state="ACCENT GRAVE" output="̀"/>
+		</action>
+		<action id="Entering CIRCONFLEXE">
+			<when state="none" next="CIRCONFLEXE"/>
+			<when state="CIRCONFLEXE" output="̂"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∧"/>
+		</action>
+		<action id="Entering SYMBOLES MONÉTAIRES">
+			<when state="none" next="SYMBOLES MONÉTAIRES"/>
+			<when state="SYMBOLES MONÉTAIRES" output="¤"/>
+		</action>
+		<action id="Entering SYMBOLES SCIENTIFIQUES">
+			<when state="none" next="SYMBOLES SCIENTIFIQUES"/>
+		</action>
+		<action id="Entering TILDE">
+			<when state="none" next="TILDE"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≈"/>
+			<when state="TILDE" output="̃"/>
+		</action>
+		<action id="Entering TRÉMA">
+			<when state="none" next="TRÉMA"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∨"/>
+			<when state="TRÉMA" output="̈"/>
+		</action>
+		<action id=" ">
+			<when state="none" output=" "/>
+			<when state="ACCENT AIGU" output="´"/>
+			<when state="ACCENT GRAVE" output="`"/>
+			<when state="CIRCONFLEXE" output="^"/>
+			<when state="SYMBOLES MONÉTAIRES" output="¤"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="±"/>
+			<when state="TILDE" output="~"/>
+			<when state="TRÉMA" output="¨"/>
+		</action>
+		<action id="$">
+			<when state="none" output="$"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⊗"/>
+		</action>
+		<action id="%">
+			<when state="none" output="%"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="‰"/>
+		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="ACCENT AIGU" output="₍"/>
+			<when state="CIRCONFLEXE" output="⁽"/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="ACCENT AIGU" output="₎"/>
+			<when state="CIRCONFLEXE" output="⁾"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="×"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="ACCENT AIGU" output="₊"/>
+			<when state="CIRCONFLEXE" output="⁺"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="±"/>
+		</action>
+		<action id="-">
+			<when state="none" output="-"/>
+			<when state="ACCENT AIGU" output="₋"/>
+			<when state="CIRCONFLEXE" output="⁻"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="−"/>
+			<when state="TILDE" output="≃"/>
+		</action>
+		<action id=".">
+			<when state="none" output="."/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∙"/>
+		</action>
+		<action id="/">
+			<when state="none" output="/"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="÷"/>
+		</action>
+		<action id="0">
+			<when state="none" output="0"/>
+			<when state="ACCENT AIGU" output="₀"/>
+			<when state="CIRCONFLEXE" output="⁰"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∅"/>
+		</action>
+		<action id="1">
+			<when state="none" output="1"/>
+			<when state="ACCENT AIGU" output="₁"/>
+			<when state="CIRCONFLEXE" output="¹"/>
+		</action>
+		<action id="2">
+			<when state="none" output="2"/>
+			<when state="ACCENT AIGU" output="₂"/>
+			<when state="CIRCONFLEXE" output="²"/>
+		</action>
+		<action id="3">
+			<when state="none" output="3"/>
+			<when state="ACCENT AIGU" output="₃"/>
+			<when state="CIRCONFLEXE" output="³"/>
+		</action>
+		<action id="4">
+			<when state="none" output="4"/>
+			<when state="ACCENT AIGU" output="₄"/>
+			<when state="CIRCONFLEXE" output="⁴"/>
+		</action>
+		<action id="5">
+			<when state="none" output="5"/>
+			<when state="ACCENT AIGU" output="₅"/>
+			<when state="CIRCONFLEXE" output="⁵"/>
+		</action>
+		<action id="6">
+			<when state="none" output="6"/>
+			<when state="ACCENT AIGU" output="₆"/>
+			<when state="CIRCONFLEXE" output="⁶"/>
+		</action>
+		<action id="7">
+			<when state="none" output="7"/>
+			<when state="ACCENT AIGU" output="₇"/>
+			<when state="CIRCONFLEXE" output="⁷"/>
+		</action>
+		<action id="8">
+			<when state="none" output="8"/>
+			<when state="ACCENT AIGU" output="₈"/>
+			<when state="CIRCONFLEXE" output="⁸"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∞"/>
+		</action>
+		<action id="9">
+			<when state="none" output="9"/>
+			<when state="ACCENT AIGU" output="₉"/>
+			<when state="CIRCONFLEXE" output="⁹"/>
+		</action>
+		<action id=":">
+			<when state="none" output=":"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≔"/>
+		</action>
+		<action id="&#x003C;">
+			<when state="none" output="&#x003C;"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≤"/>
+		</action>
+		<action id="=">
+			<when state="none" output="="/>
+			<when state="ACCENT AIGU" output="₌"/>
+			<when state="CIRCONFLEXE" output="⁼"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≠"/>
+			<when state="TILDE" output="≈"/>
+		</action>
+		<action id="&#x003E;">
+			<when state="none" output="&#x003E;"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≥"/>
+		</action>
+		<action id="@">
+			<when state="none" output="@"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="¬"/>
+		</action>
+		<action id="A">
+			<when state="none" output="A"/>
+			<when state="ACCENT AIGU" output="Á"/>
+			<when state="ACCENT GRAVE" output="À"/>
+			<when state="CIRCONFLEXE" output="Â"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₳"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∀"/>
+			<when state="TILDE" output="Ã"/>
+			<when state="TRÉMA" output="Ä"/>
+		</action>
+		<action id="B">
+			<when state="none" output="B"/>
+			<when state="SYMBOLES MONÉTAIRES" output="฿"/>
+		</action>
+		<action id="C">
+			<when state="none" output="C"/>
+			<when state="ACCENT AIGU" output="Ć"/>
+			<when state="CIRCONFLEXE" output="Ĉ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₡"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℂ"/>
+		</action>
+		<action id="D">
+			<when state="none" output="D"/>
+			<when state="ACCENT AIGU" output="Ş"/>
+			<when state="CIRCONFLEXE" output="Ę"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₯"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∆"/>
+		</action>
+		<action id="E">
+			<when state="none" output="E"/>
+			<when state="ACCENT AIGU" output="É"/>
+			<when state="ACCENT GRAVE" output="È"/>
+			<when state="CIRCONFLEXE" output="Ê"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₠"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∃"/>
+			<when state="TILDE" output="Ẽ"/>
+			<when state="TRÉMA" output="Ë"/>
+		</action>
+		<action id="F">
+			<when state="none" output="F"/>
+			<when state="ACCENT AIGU" output="Ğ"/>
+			<when state="CIRCONFLEXE" output="Č"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₣"/>
+		</action>
+		<action id="G">
+			<when state="none" output="G"/>
+			<when state="ACCENT AIGU" output="Ǵ"/>
+			<when state="CIRCONFLEXE" output="Ĝ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₲"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇐"/>
+		</action>
+		<action id="H">
+			<when state="none" output="H"/>
+			<when state="CIRCONFLEXE" output="Ĥ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇓"/>
+			<when state="TRÉMA" output="Ḧ"/>
+		</action>
+		<action id="I">
+			<when state="none" output="I"/>
+			<when state="ACCENT AIGU" output="Í"/>
+			<when state="ACCENT GRAVE" output="Ì"/>
+			<when state="CIRCONFLEXE" output="Î"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₹"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∫"/>
+			<when state="TILDE" output="Ĩ"/>
+			<when state="TRÉMA" output="Ï"/>
+		</action>
+		<action id="J">
+			<when state="none" output="J"/>
+			<when state="ACCENT AIGU" output="Ə"/>
+			<when state="CIRCONFLEXE" output="Ĵ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇒"/>
+		</action>
+		<action id="K">
+			<when state="none" output="K"/>
+			<when state="ACCENT AIGU" output="Ḱ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₭"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇔"/>
+		</action>
+		<action id="L">
+			<when state="none" output="L"/>
+			<when state="ACCENT AIGU" output="Ĺ"/>
+			<when state="CIRCONFLEXE" output="Ł"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₺"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℓ"/>
+		</action>
+		<action id="M">
+			<when state="none" output="M"/>
+			<when state="ACCENT AIGU" output="Ḿ"/>
+			<when state="CIRCONFLEXE" output="Ż"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₼"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≡"/>
+		</action>
+		<action id="N">
+			<when state="none" output="N"/>
+			<when state="ACCENT AIGU" output="Ń"/>
+			<when state="ACCENT GRAVE" output="Ǹ"/>
+			<when state="CIRCONFLEXE" output="Ñ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₦"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℕ"/>
+			<when state="TILDE" output="Ñ"/>
+		</action>
+		<action id="O">
+			<when state="none" output="O"/>
+			<when state="ACCENT AIGU" output="Ó"/>
+			<when state="ACCENT GRAVE" output="Ò"/>
+			<when state="CIRCONFLEXE" output="Ô"/>
+			<when state="TILDE" output="Õ"/>
+			<when state="TRÉMA" output="Ö"/>
+		</action>
+		<action id="P">
+			<when state="none" output="P"/>
+			<when state="ACCENT AIGU" output="Ṕ"/>
+			<when state="CIRCONFLEXE" output="Ã"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₧"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∏"/>
+		</action>
+		<action id="Q">
+			<when state="none" output="Q"/>
+			<when state="ACCENT AIGU" output="Ø"/>
+			<when state="CIRCONFLEXE" output="Ą"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℚ"/>
+		</action>
+		<action id="R">
+			<when state="none" output="R"/>
+			<when state="ACCENT AIGU" output="Ŕ"/>
+			<when state="CIRCONFLEXE" output="Ă"/>
+			<when state="SYMBOLES MONÉTAIRES" output="៛"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℝ"/>
+		</action>
+		<action id="S">
+			<when state="none" output="S"/>
+			<when state="ACCENT AIGU" output="Ś"/>
+			<when state="CIRCONFLEXE" output="Ŝ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₪"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∑"/>
+		</action>
+		<action id="T">
+			<when state="none" output="T"/>
+			<when state="ACCENT AIGU" output="İ"/>
+			<when state="CIRCONFLEXE" output="Ș"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₮"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⊥"/>
+		</action>
+		<action id="U">
+			<when state="none" output="U"/>
+			<when state="ACCENT AIGU" output="Ú"/>
+			<when state="ACCENT GRAVE" output="Ù"/>
+			<when state="CIRCONFLEXE" output="Û"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₴"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∩"/>
+			<when state="TILDE" output="Ũ"/>
+			<when state="TRÉMA" output="Ü"/>
+		</action>
+		<action id="V">
+			<when state="none" output="V"/>
+			<when state="ACCENT AIGU" output="Ù"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∛"/>
+			<when state="TILDE" output="Ṽ"/>
+		</action>
+		<action id="W">
+			<when state="none" output="W"/>
+			<when state="ACCENT AIGU" output="Ẃ"/>
+			<when state="ACCENT GRAVE" output="Ẁ"/>
+			<when state="CIRCONFLEXE" output="Ŵ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₩"/>
+			<when state="TRÉMA" output="Ẅ"/>
+		</action>
+		<action id="X">
+			<when state="none" output="X"/>
+			<when state="ACCENT AIGU" output="Å"/>
+			<when state="CIRCONFLEXE" output="Š"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="×"/>
+			<when state="TRÉMA" output="Ẍ"/>
+		</action>
+		<action id="Y">
+			<when state="none" output="Y"/>
+			<when state="ACCENT AIGU" output="Ý"/>
+			<when state="ACCENT GRAVE" output="Ỳ"/>
+			<when state="CIRCONFLEXE" output="Ŷ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇑"/>
+			<when state="TILDE" output="Ỹ"/>
+			<when state="TRÉMA" output="Ÿ"/>
+		</action>
+		<action id="Z">
+			<when state="none" output="Z"/>
+			<when state="ACCENT AIGU" output="Ź"/>
+			<when state="CIRCONFLEXE" output="Ẑ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₢"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℤ"/>
+		</action>
+		<action id="^">
+			<when state="none" output="^"/>
+			<when state="CIRCONFLEXE" output="̂"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∧"/>
+		</action>
+		<action id="_">
+			<when state="none" output="_"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∝"/>
+			<when state="TILDE" output="≃"/>
+		</action>
+		<action id="`">
+			<when state="none" output="`"/>
+			<when state="ACCENT GRAVE" output="̀"/>
+		</action>
+		<action id="a">
+			<when state="none" output="a"/>
+			<when state="ACCENT AIGU" output="á"/>
+			<when state="ACCENT GRAVE" output="à"/>
+			<when state="CIRCONFLEXE" output="â"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₳"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∠"/>
+			<when state="TILDE" output="ã"/>
+			<when state="TRÉMA" output="ä"/>
+		</action>
+		<action id="b">
+			<when state="none" output="b"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₿"/>
+		</action>
+		<action id="c">
+			<when state="none" output="c"/>
+			<when state="ACCENT AIGU" output="ć"/>
+			<when state="CIRCONFLEXE" output="ĉ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="¢"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⊂"/>
+		</action>
+		<action id="d">
+			<when state="none" output="d"/>
+			<when state="ACCENT AIGU" output="ş"/>
+			<when state="CIRCONFLEXE" output="ę"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₫"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∂"/>
+		</action>
+		<action id="e">
+			<when state="none" output="e"/>
+			<when state="ACCENT AIGU" output="é"/>
+			<when state="ACCENT GRAVE" output="è"/>
+			<when state="CIRCONFLEXE" output="ê"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₠"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∈"/>
+			<when state="TILDE" output="ẽ"/>
+			<when state="TRÉMA" output="ë"/>
+		</action>
+		<action id="f">
+			<when state="none" output="f"/>
+			<when state="ACCENT AIGU" output="ğ"/>
+			<when state="CIRCONFLEXE" output="č"/>
+			<when state="SYMBOLES MONÉTAIRES" output="ƒ"/>
+		</action>
+		<action id="g">
+			<when state="none" output="g"/>
+			<when state="ACCENT AIGU" output="ǵ"/>
+			<when state="CIRCONFLEXE" output="ĝ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₾"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇐"/>
+		</action>
+		<action id="h">
+			<when state="none" output="h"/>
+			<when state="CIRCONFLEXE" output="ĥ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇓"/>
+			<when state="TRÉMA" output="ḧ"/>
+		</action>
+		<action id="i">
+			<when state="none" output="i"/>
+			<when state="ACCENT AIGU" output="í"/>
+			<when state="ACCENT GRAVE" output="ì"/>
+			<when state="CIRCONFLEXE" output="î"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₹"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∫"/>
+			<when state="TILDE" output="ĩ"/>
+			<when state="TRÉMA" output="ï"/>
+		</action>
+		<action id="j">
+			<when state="none" output="j"/>
+			<when state="ACCENT AIGU" output="ə"/>
+			<when state="CIRCONFLEXE" output="ĵ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇒"/>
+		</action>
+		<action id="k">
+			<when state="none" output="k"/>
+			<when state="ACCENT AIGU" output="ḱ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="⃀"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇔"/>
+		</action>
+		<action id="l">
+			<when state="none" output="l"/>
+			<when state="ACCENT AIGU" output="ĺ"/>
+			<when state="CIRCONFLEXE" output="ł"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₺"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℓ"/>
+		</action>
+		<action id="m">
+			<when state="none" output="m"/>
+			<when state="ACCENT AIGU" output="ḿ"/>
+			<when state="CIRCONFLEXE" output="ż"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₥"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≡"/>
+		</action>
+		<action id="n">
+			<when state="none" output="n"/>
+			<when state="ACCENT AIGU" output="ń"/>
+			<when state="ACCENT GRAVE" output="ǹ"/>
+			<when state="CIRCONFLEXE" output="ñ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₦"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∇"/>
+			<when state="TILDE" output="ñ"/>
+		</action>
+		<action id="o">
+			<when state="none" output="o"/>
+			<when state="ACCENT AIGU" output="ó"/>
+			<when state="ACCENT GRAVE" output="ò"/>
+			<when state="CIRCONFLEXE" output="ô"/>
+			<when state="TILDE" output="õ"/>
+			<when state="TRÉMA" output="ö"/>
+		</action>
+		<action id="p">
+			<when state="none" output="p"/>
+			<when state="ACCENT AIGU" output="ṕ"/>
+			<when state="CIRCONFLEXE" output="ã"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₱"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∏"/>
+		</action>
+		<action id="q">
+			<when state="none" output="q"/>
+			<when state="ACCENT AIGU" output="ø"/>
+			<when state="CIRCONFLEXE" output="ą"/>
+		</action>
+		<action id="r">
+			<when state="none" output="r"/>
+			<when state="ACCENT AIGU" output="ŕ"/>
+			<when state="CIRCONFLEXE" output="ă"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₽"/>
+		</action>
+		<action id="s">
+			<when state="none" output="s"/>
+			<when state="ACCENT AIGU" output="ś"/>
+			<when state="CIRCONFLEXE" output="ŝ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₪"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∑"/>
+		</action>
+		<action id="t">
+			<when state="none" output="t"/>
+			<when state="ACCENT AIGU" output="ı"/>
+			<when state="CIRCONFLEXE" output="ș"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₸"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∥"/>
+			<when state="TRÉMA" output="ẗ"/>
+		</action>
+		<action id="u">
+			<when state="none" output="u"/>
+			<when state="ACCENT AIGU" output="ú"/>
+			<when state="ACCENT GRAVE" output="ù"/>
+			<when state="CIRCONFLEXE" output="û"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₴"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="∪"/>
+			<when state="TILDE" output="ũ"/>
+			<when state="TRÉMA" output="ü"/>
+		</action>
+		<action id="v">
+			<when state="none" output="v"/>
+			<when state="ACCENT AIGU" output="ù"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="√"/>
+			<when state="TILDE" output="ṽ"/>
+		</action>
+		<action id="w">
+			<when state="none" output="w"/>
+			<when state="ACCENT AIGU" output="ẃ"/>
+			<when state="ACCENT GRAVE" output="ẁ"/>
+			<when state="CIRCONFLEXE" output="ŵ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₩"/>
+			<when state="TRÉMA" output="ẅ"/>
+		</action>
+		<action id="x">
+			<when state="none" output="x"/>
+			<when state="ACCENT AIGU" output="å"/>
+			<when state="CIRCONFLEXE" output="š"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="×"/>
+			<when state="TRÉMA" output="ẍ"/>
+		</action>
+		<action id="y">
+			<when state="none" output="y"/>
+			<when state="ACCENT AIGU" output="ý"/>
+			<when state="ACCENT GRAVE" output="ỳ"/>
+			<when state="CIRCONFLEXE" output="ŷ"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⇑"/>
+			<when state="TILDE" output="ỹ"/>
+			<when state="TRÉMA" output="ÿ"/>
+		</action>
+		<action id="z">
+			<when state="none" output="z"/>
+			<when state="ACCENT AIGU" output="ź"/>
+			<when state="CIRCONFLEXE" output="ẑ"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₢"/>
+		</action>
+		<action id="|">
+			<when state="none" output="|"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="ℏ"/>
+		</action>
+		<action id="~">
+			<when state="none" output="~"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="≈"/>
+			<when state="TILDE" output="̃"/>
+		</action>
+		<action id="£">
+			<when state="none" output="£"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₤"/>
+			<when state="SYMBOLES SCIENTIFIQUES" output="⊕"/>
+		</action>
+		<action id="Æ">
+			<when state="none" output="Æ"/>
+			<when state="ACCENT AIGU" output="Ǽ"/>
+		</action>
+		<action id="æ">
+			<when state="none" output="æ"/>
+			<when state="ACCENT AIGU" output="ǽ"/>
+		</action>
+		<action id="ç">
+			<when state="none" output="ç"/>
+			<when state="CIRCONFLEXE" output="Ç"/>
+			<when state="SYMBOLES MONÉTAIRES" output="₵"/>
+		</action>
+		<action id="é">
+			<when state="none" output="é"/>
+			<when state="CIRCONFLEXE" output="É"/>
+		</action>
+	</actions>
+	<terminators>
+		<when state="ACCENT AIGU" output="´"/>
+		<when state="ACCENT GRAVE" output="`"/>
+		<when state="CIRCONFLEXE" output="^"/>
+		<when state="SYMBOLES MONÉTAIRES" output="¤"/>
+		<when state="SYMBOLES SCIENTIFIQUES" output="±"/>
+		<when state="TILDE" output="~"/>
+		<when state="TRÉMA" output="¨"/>
+	</terminators>
+</keyboard>
+

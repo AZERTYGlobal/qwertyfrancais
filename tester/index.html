@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeur QWERTY Français</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="keyboard.css">
+    <style>
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+        }
+        .tester-container {
+            width: 100%;
+            max-width: 1200px;
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 { margin-top: 0; }
+        #modal-output {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 1.2rem;
+            border: 1px solid var(--border-color);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tester-container">
+        <h1>Testeur QWERTY Français</h1>
+        <textarea id="modal-output" placeholder="Tapez ici..."></textarea>
+        <div id="modal-keyboard-container"></div>
+    </div>
+
+    <script type="module">
+        import { AZERTYKeyboard } from './keyboard.js';
+        
+        window.addEventListener('DOMContentLoaded', () => {
+            const keyboard = new AZERTYKeyboard('#modal-keyboard-container', {
+                layoutUrl: 'qwerty-francais.json',
+                onKeyClick: (char) => {
+                    const output = document.getElementById('modal-output');
+                    output.value += char;
+                    output.scrollTop = output.scrollHeight;
+                }
+            });
+
+            // Handle physical keyboard input
+            document.addEventListener('keydown', (e) => {
+                const code = e.code;
+                
+                // Prevent default behavior for specific navigation/chording keys
+                if (code === 'Tab' || code === 'AltLeft' || code === 'AltRight') {
+                    e.preventDefault();
+                }
+
+                if (keyboard) {
+                    keyboard.pressKey(code);
+                    
+                    // Handle modifiers
+                    if (code === 'ShiftLeft' || code === 'ShiftRight') keyboard.setShift(true);
+                    if (code === 'AltRight') keyboard.setAltGr(true);
+                    if (code === 'CapsLock') {
+                        const capsActive = e.getModifierState('CapsLock');
+                        keyboard.setCaps(capsActive);
+                    }
+
+                    // Handle Backspace specially
+                    if (code === 'Backspace') {
+                        if (keyboard.state && keyboard.state.activeDeadKey) {
+                            keyboard.clearDeadKey();
+                            e.preventDefault(); // Only prevent default if we cleared a dead key
+                        }
+                        // Otherwise let default Backspace happen (delete text)
+                        return;
+                    }
+
+                    // For typing visuals
+                    const ignoredKeys = [
+                        'ShiftLeft', 'ShiftRight', 'ControlLeft', 'ControlRight', 
+                        'AltLeft', 'AltRight', 'MetaLeft', 'MetaRight', 'CapsLock',
+                        'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Escape'
+                    ];
+
+                    if (!ignoredKeys.includes(code)) {
+                        keyboard.handleKeyClick(code, true);
+                        e.preventDefault();
+                    }
+                }
+            });
+
+            document.addEventListener('keyup', (e) => {
+                if (keyboard) {
+                    keyboard.releaseKey(e.code);
+                    if (e.code === 'ShiftLeft' || e.code === 'ShiftRight') keyboard.setShift(false);
+                    if (e.code === 'AltRight') keyboard.setAltGr(false);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

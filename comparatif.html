@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/favicon-azerty-global.png">
+  <title>QWERTY Français vs US International : Le Comparatif</title>
+  <meta name="description"
+    content="Pourquoi QWERTY Français est meilleur que US International ? Plus rapide pour les accents, pas de guillemets morts ennuyeux pour le code.">
+  <meta name="keywords" content="qwerty français vs us international, clavier qwerty accents, us intl dead keys, é majuscule qwerty">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://qwertyfrancais.fr/comparatif.html">
+  <link rel="alternate" hreflang="fr" href="https://qwertyfrancais.fr/comparatif.html">
+  <link rel="alternate" hreflang="x-default" href="https://qwertyfrancais.fr/comparatif.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://qwertyfrancais.fr/comparatif.html">
+  <meta property="og:title" content="QWERTY Français vs US International : Le Comparatif">
+  <meta property="og:description"
+    content="Tableau comparatif. É majuscule direct, Ç facile, et surtout : vos guillemets fonctionnent pour le code !">
+  <meta property="og:image" content="https://qwertyfrancais.fr/assets/og-image.png">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="QWERTY Français">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://qwertyfrancais.fr/comparatif.html">
+  <meta name="twitter:title" content="QWERTY Français vs US International : Le Comparatif">
+  <meta name="twitter:description"
+    content="Tableau comparatif. É majuscule direct, Ç facile, et surtout : vos guillemets fonctionnent pour le code !">
+  <meta name="twitter:image" content="https://qwertyfrancais.fr/assets/og-image.png">
+  <meta name="twitter:site" content="@AntoineOlivier">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Theme (load early to prevent flash) -->
+  <script src="js/theme.js"></script>
+
+  <!-- Schema.org Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://qwertyfrancais.fr/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Comparatif",
+      "item": "https://qwertyfrancais.fr/comparatif.html"
+    }]
+  }
+  </script>
+
+  <style>
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: var(--text-sm);
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+      padding: var(--space-3) var(--space-4);
+      text-align: center;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .comparison-table th {
+      background: var(--bg-secondary);
+      font-weight: 600;
+    }
+
+    .comparison-table th:first-child,
+    .comparison-table td:first-child {
+      text-align: left;
+      font-weight: 500;
+    }
+
+    .comparison-table tr:hover {
+      background: var(--bg-secondary);
+    }
+
+    .comparison-table .winner {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .check {
+      color: var(--success);
+    }
+
+    .cross {
+      color: var(--error);
+    }
+
+    .partial {
+      color: var(--warning);
+    }
+  </style>
+  <!-- Schema.org WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "QWERTY Français",
+    "url": "https://qwertyfrancais.fr",
+    "inLanguage": "fr",
+    "publisher": {
+      "@type": "Person",
+      "name": "Antoine Olivier",
+      "url": "https://qwertyfrancais.fr"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+       <!-- <img src="assets/logo-azerty-global.png" alt="Logo QWERTY Français" class="header__logo-img"> -->
+       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">Français</span></span>
+      </a>
+
+      <nav class="nav" role="navigation" aria-label="Navigation principale">
+        <a href="index.html" class="nav__link">Accueil</a>
+        <a href="download.html" class="nav__link">Télécharger</a>
+        <a href="guide.html" class="nav__link">Guide</a>
+        <a href="comparatif.html" class="nav__link nav__link--active">Comparatif</a>
+        <a href="feedback.html" class="nav__link">Feedback</a>
+        <div class="nav__dropdown">
+          <button class="nav__dropdown-toggle">Plus</button>
+          <div class="nav__dropdown-menu">
+            <a href="faq.html" class="nav__dropdown-item">FAQ</a>
+            <a href="presse.html" class="nav__dropdown-item">Presse</a>
+            <a href="licence.html" class="nav__dropdown-item">Licence</a>
+            <a href="mentions-legales.html" class="nav__dropdown-item">Mentions Légales</a>
+            <a href="a-propos.html" class="nav__dropdown-item">À propos</a>
+            <div style="height: 1px; background: var(--border-color); margin: var(--space-1) 0;"></div>
+            <a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank" class="nav__dropdown-item"
+              style="color: var(--color-accent);">Faire un don ❤️</a>
+          </div>
+        </div>
+      </nav>
+
+      <div style="display: flex; gap: var(--space-2);">
+        <button class="theme-toggle" aria-label="Changer le thème">
+          <span class="theme-toggle__icon--dark">🌙</span>
+          <span class="theme-toggle__icon--light">☀️</span>
+        </button>
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="padding-bottom: var(--space-8);">
+      <div class="container">
+        <h1 class="hero__title">Pourquoi QWERTY Français ?</h1>
+        <p class="hero__subtitle">
+          QWERTY Français • US International • QWERTY Standard
+        </p>
+      </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Critère</th>
+                <th>QWERTY Français</th>
+                <th>US International</th>
+                <th>QWERTY Standard</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Accès au É</strong></td>
+                <td class="winner"><span class="check">✅ Direct (touche ;)</span></td>
+                <td><span class="cross">❌ ' + e (touche morte)</span></td>
+                <td><span class="cross">❌ Alt + Code</span></td>
+              </tr>
+              <tr>
+                <td><strong>Symbole ' (apostrophe)</strong></td>
+                <td class="winner"><span class="check">✅ Direct (immédiat)</span></td>
+                <td><span class="cross">❌ Mort (nécessite espace)</span></td>
+                <td><span class="check">✅ Direct</span></td>
+              </tr>
+              <tr>
+                <td><strong>Symbole " (guillemet)</strong></td>
+                <td class="winner"><span class="check">✅ Direct (immédiat)</span></td>
+                <td><span class="cross">❌ Mort (nécessite espace)</span></td>
+                <td><span class="check">✅ Direct</span></td>
+              </tr>
+              <tr>
+                <td><strong>Majuscules accentuées (É, À, Ç)</strong></td>
+                <td class="winner"><span class="check">✅ Caps Lock + Lettre</span></td>
+                <td><span class="partial">⚠️ Complexe</span></td>
+                <td><span class="cross">❌ Impossible</span></td>
+              </tr>
+              <tr>
+                <td><strong>Ç (cédille)</strong></td>
+                <td class="winner"><span class="check">✅ AltGr + C (facile)</span></td>
+                <td><span class="partial">⚠️ ' + C</span></td>
+                <td><span class="cross">❌ Impossible</span></td>
+              </tr>
+              <tr>
+                <td><strong>Guillemets « »</strong></td>
+                <td class="winner"><span class="check">✅ AltGr + Z/X</span></td>
+                <td><span class="cross">❌ Alt + Code</span></td>
+                <td><span class="cross">❌ Impossible</span></td>
+              </tr>
+              <tr>
+                <td><strong>Confort pour le code</strong></td>
+                <td class="winner"><span class="check">✅ Parfait (quotes directes)</span></td>
+                <td><span class="cross">❌ Enervant (dead quotes)</span></td>
+                <td><span class="check">✅ Parfait</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    <section class="section" style="padding-top: 0;">
+      <div class="container container--narrow">
+        <h2 style="margin-bottom: var(--space-4);">📊 Impact quantifié (données AFNOR)</h2>
+        
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-4);">
+          Basé sur l'analyse des fréquences de caractères du corpus AFNOR :
+        </p>
+
+        <div class="table-wrapper" style="margin-bottom: var(--space-4);">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Métrique</th>
+                <th>AZERTY Global</th>
+                <th>AZERTY AFNOR</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Caractères déplacés (tous)</strong></td>
+                <td class="winner">8.3%</td>
+                <td>24.8%</td>
+              </tr>
+              <tr>
+                <td><strong>Impact sur toutes les frappes</strong></td>
+                <td class="winner">0.67%</td>
+                <td>4.77%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p style="color: var(--text-secondary); font-size: var(--text-sm);">
+          📝 <em>Texte français (50% formel + 50% informel). L'AFNOR a un impact <strong>7× supérieur</strong> sur la mémoire musculaire.</em>
+        </p>
+      </div>
+    </section>
+    -->
+
+    <!-- Summary -->
+    <section class="section">
+      <div class="container container--narrow">
+        <h2 style="margin-bottom: var(--space-6);">📊 En résumé</h2>
+
+        <div class="benefits__grid" style="gap: var(--space-4);">
+          <div class="card">
+            <h3 class="card__title">QWERTY US Standard</h3>
+            <p class="card__text" style="color: var(--text-secondary);">
+              Excellent pour le code, catastrophique pour écrire en français (aucun accent). Force l'utilisation d'un correcteur automatique ou d'Alt-Codes.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">QWERTY US International</h3>
+            <p class="card__text" style="color: var(--text-secondary);">
+              La solution par défaut. Permet les accents, mais rend invivables les symboles de programmation ' et " (touches mortes). Un enfer pour les développeurs.
+            </p>
+          </div>
+
+          <div class="card" style="border-color: var(--success);">
+            <h3 class="card__title" style="color: var(--success);">QWERTY Français ✨</h3>
+            <p class="card__text" style="color: var(--text-secondary);">
+              Le Saint Graal. Accentuation française complète (É, À, Ç, « ») sans sacrifier la rapidité de programmation. Les quotes restent directes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision / Manifeste -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container container--narrow" style="text-align: center;">
+        <h2 style="margin-bottom: var(--space-4);">🎯 Notre vision</h2>
+        <p style="font-size: var(--text-lg); color: var(--text-secondary); margin-bottom: var(--space-4);">
+          Nous pensons que vous ne devriez pas avoir à choisir entre taper du code rapidement et écrire un français correct.
+        </p>
+        <p style="color: var(--text-secondary); margin-bottom: var(--space-6);">
+          QWERTY Français est la réponse pragmatique pour ceux qui aiment la disposition US mais vivent dans un monde francophone.
+        </p>
+        <a href="download.html" class="btn btn--primary btn--lg">
+          <span>⬇️</span>
+          Télécharger QWERTY Français
+        </a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="beta-status">
+      <div class="container">
+        <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-4);">Convaincu ?</h3>
+        <p style="margin-bottom: var(--space-6); color: white; font-size: var(--text-lg);">
+          Essayez QWERTY Français et rejoignez le mouvement.
+        </p>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+          <a href="https://discord.gg/nYknqshJz3" target="_blank" class="btn btn--lg"
+            style="background: white; color: #6366f1 !important;">
+            Serveur Discord
+          </a>
+          <a href="guide.html" class="btn btn--lg" style="background: rgba(255,255,255,0.2); color: white;">
+            📖 Guide rapide
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <!-- <img src="assets/logo-azerty-global.png" alt="AZERTY Global" style="height: 130px; width: auto;"> -->
+             <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">Français</span></span>
+          </div>
+          <p class="footer__tagline">
+            L'AZERTY amélioré... euh non, le QWERTY maîtrisé !
+          </p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__column">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="download.html">Télécharger</a></li>
+              <li><a href="guide.html">Guide rapide</a></li>
+              <li><a href="comparatif.html">Comparatif</a></li>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h4>Ressources</h4>
+            <ul>
+              <li><a href="images/carte-complete.svg" target="_blank">Carte complète</a></li>
+              <li><a href="images/carte-simplifiee.svg" target="_blank">Carte simplifiée</a></li>
+              <li><a href="https://github.com/AZERTYGlobal/website" target="_blank">GitHub</a></li>
+            </ul>
+          </div>
+
+          <!--
+          <div class="footer__column">
+            <h4>Astuces</h4>
+            <ul>
+              <li><a href="e-aigu-majuscule.html">Faire un É majuscule</a></li>
+              <li><a href="c-cedille-majuscule.html">Faire un Ç majuscule</a></li>
+              <li><a href="a-grave-majuscule.html">Faire un À majuscule</a></li>
+              <li><a href="e-grave-majuscule.html">Faire un È majuscule</a></li>
+              <li><a href="e-dans-l-o.html">Faire un œ (e dans l'o)</a></li>
+            </ul>
+          </div>
+          -->
+
+          <div class="footer__column">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="mailto:contact@azerty.global">Email</a></li>
+              <li><a href="https://discord.gg/nYknqshJz3" target="_blank">Discord</a></li>
+              <li><a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank"
+                  style="color: var(--color-accent); font-weight: 600;">Faire un don ❤️</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2017–2026 QWERTY Français — Antoine OLIVIER</span>
+        <span>
+          <a href="mentions-legales.html" style="color: inherit; text-decoration: none;">Mentions Légales</a> •
+          Fait avec ❤️ pour les Français
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/easter-eggs.js"></script>
+</body>
+
+</html>
+
+

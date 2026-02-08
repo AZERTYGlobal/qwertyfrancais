@@ -1,0 +1,17 @@
+tester/node_modules/
+
+# Scripts de dev
+scripts/
+_backup_old_site/
+
+# Pages cachées (non publiées)
+ecoles.html
+entreprises.html
+roadmap.html
+
+# Scripts utilitaires (dev uniquement)
+*.py
+*.js
+!js/*.js
+!tester/*.js
+verification_report.txt

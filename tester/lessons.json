@@ -1,0 +1,227 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-05",
+  "modules": [
+    {
+      "id": "essentiels-francais",
+      "title": "Essentiels Français",
+      "description": "Les caractères français indispensables sur votre QWERTY",
+      "icon": "🇫🇷",
+      "lessons": [
+        {
+          "id": "lettre-e-aigue",
+          "title": "Le é (e accent aigu)",
+          "description": "Accessible directement sur la touche Point-virgule (;)",
+          "characters": ["é", "É"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "Le é remplace le point-virgule (;). Tapez-le directement.",
+              "content": "é é é é é"
+            },
+            {
+              "type": "practice",
+              "instruction": "Pour la majuscule É, utilisez Shift (Maj) ou Caps Lock (Verr. Maj).",
+              "content": "É É É É É"
+            },
+            {
+              "type": "practice",
+              "instruction": "Mix : mots courants",
+              "content": "été\nécole\néléphant\nÉDITION"
+            }
+          ]
+        },
+        {
+          "id": "accents-morts",
+          "title": "Accents graves et aigus",
+          "description": "Sur la touche Crochet gauche ([)",
+          "characters": ["è", "à", "ù", "á", "í"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "Accent grave (`) : Tapez [ puis la lettre (e, a, u)",
+              "content": "è à ù"
+            },
+            {
+              "type": "practice",
+              "instruction": "Tapez ces mots avec accent grave",
+              "content": "très\nà bientôt\nvoilà\noù"
+            },
+             {
+              "type": "practice",
+              "instruction": "Accent aigu (´) : Maj + [ puis la lettre",
+              "content": "á í ó ú"
+            }
+          ]
+        },
+        {
+          "id": "cedille",
+          "title": "La cédille ç",
+          "description": "Sur AltGr + C",
+          "characters": ["ç", "Ç"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "Tapez ç avec AltGr + C",
+              "content": "ç ç ç ç ç"
+            },
+            {
+              "type": "practice",
+              "instruction": "Majuscule Ç : Verr. Maj + AltGr + C",
+              "content": "Ç Ç Ç Ç Ç"
+            },
+            {
+              "type": "practice",
+              "instruction": "Mots avec cédille",
+              "content": "ça va\nleçon\nfrançais\nGARÇON"
+            }
+          ]
+        },
+        {
+          "id": "circonflexe-trema",
+          "title": "Circonflexe et Tréma",
+          "description": "Sur la touche Crochet droit (])",
+          "characters": ["ê", "â", "î", "ô", "û", "ë", "ï", "ü"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "Circonflexe (^) : Tapez ] puis la lettre",
+              "content": "ê â î ô û"
+            },
+            {
+              "type": "practice",
+              "instruction": "Tréma (¨) : Maj + ] puis la lettre",
+              "content": "ë ï ü ÿ"
+            },
+            {
+              "type": "practice",
+              "instruction": "Exercez-vous",
+              "content": "fête\nnoël\nmaïs\nforêt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typographie",
+      "title": "Typographie Soignée",
+      "description": "Ligatures et guillemets français",
+      "icon": "✒️",
+      "lessons": [
+        {
+          "id": "ligatures",
+          "title": "Ligatures æ et œ",
+          "description": "Sur AltGr + A et AltGr + O",
+          "characters": ["æ", "œ", "Æ", "Œ"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "æ (e-dans-l'a) : AltGr + A",
+              "content": "æ æ æ"
+            },
+            {
+              "type": "practice",
+              "instruction": "œ (e-dans-l'o) : AltGr + O",
+              "content": "œ œ œ"
+            },
+            {
+              "type": "practice",
+              "instruction": "Mots usuels",
+              "content": "cœur\nœuvre\ncurriculum vitæ\nLÆTITIA"
+            }
+          ]
+        },
+        {
+          "id": "guillemets",
+          "title": "Guillemets « »",
+          "description": "Sur AltGr + Z et AltGr + X",
+          "characters": ["«", "»"],
+          "exercises": [
+            {
+              "type": "practice",
+              "instruction": "Guillemet ouvrant « : AltGr + Z",
+              "content": "« « « «"
+            },
+            {
+              "type": "practice",
+              "instruction": "Guillemet fermant » : AltGr + X",
+              "content": "» » » »"
+            },
+            {
+              "type": "practice",
+              "instruction": "En contexte",
+              "content": "« Bonjour »\n« C'est parti »"
+            }
+          ]
+        },
+        {
+            "id": "euro",
+            "title": "Symbole Euro €",
+            "description": "Sur AltGr + E",
+            "characters": ["€"],
+            "exercises": [
+                {
+                    "type": "practice",
+                    "instruction": "Tapez le symbole Euro avec AltGr + E",
+                    "content": "€ € €"
+                },
+                 {
+                    "type": "practice",
+                    "instruction": "Prix",
+                    "content": "10€\n50 €\nC'est 2€."
+                }
+            ]
+        }
+      ]
+    },
+     {
+      "id": "programmation",
+      "title": "Développement",
+      "description": "Symboles de code (accessibles comme sur QWERTY US)",
+      "icon": "💻",
+      "lessons": [
+        {
+          "id": "altgr-symbols",
+          "title": "Accolades et Crochets",
+          "description": "Sur AltGr + touches d'origine ({ } [ ])",
+          "characters": ["{", "}", "[", "]"],
+          "exercises": [
+             {
+              "type": "practice",
+              "instruction": "Accolades : AltGr + D / F (Home Row)",
+              "content": "{ } { }"
+            },
+            {
+              "type": "practice",
+              "instruction": "Crochets : AltGr + J / K (Home Row)",
+              "content": "[ ] [ ]"
+            },
+            {
+                "type": "practice",
+                "instruction": "Note: Les touches physiques [ ] servent aux accents morts. Utilisez AltGr pour les symboles.",
+                "content": "function() { return [1, 2]; }"
+            }
+          ]
+        },
+        {
+            "id": "pipes-slashes",
+            "title": "Barres et Slashs",
+            "description": "Pipe | et Backslash \\",
+            "characters": ["|", "\\"],
+            "exercises": [
+                {
+                    "type": "practice",
+                    "instruction": "Pipe | : AltGr + H",
+                    "content": "| | |"
+                },
+                {
+                    "type": "practice",
+                    "instruction": "Backslash \\ : AltGr + G",
+                    "content": "\\ \\ \\"
+                }
+            ]
+        }
+      ]
+    }
+  ]
+}
