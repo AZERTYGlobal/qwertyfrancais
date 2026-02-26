@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/favicon-qwerty-francais.png">
-  <title>Merci ! - QWERTY Français</title>
+  <title>Merci ! - QWERTY FranÃ§ais</title>
   <meta name="description"
-    content="Merci d'avoir téléchargé QWERTY Français. Découvrez comment l'installer et participez à la bêta.">
+    content="Merci d'avoir tÃ©lÃ©chargÃ© QWERTY FranÃ§ais. DÃ©couvrez comment l'installer et participez Ã  la bÃªta.">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://qwertyfrancais.fr/merci.html">
@@ -15,8 +15,8 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://qwertyfrancais.fr/merci.html">
-  <meta property="og:title" content="Merci ! - QWERTY Français">
-  <meta property="og:description" content="Merci d'avoir téléchargé QWERTY Français.">
+  <meta property="og:title" content="Merci ! - QWERTY FranÃ§ais">
+  <meta property="og:description" content="Merci d'avoir tÃ©lÃ©chargÃ© QWERTY FranÃ§ais.">
   <meta property="og:image" content="https://qwertyfrancais.fr/assets/og-image.png">
 
   <!-- Prevent indexing of thank you page -->
@@ -38,7 +38,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "QWERTY Français",
+    "name": "QWERTY FranÃ§ais",
     "url": "https://qwertyfrancais.fr",
     "inLanguage": "fr",
     "publisher": {
@@ -54,13 +54,13 @@
   <header class="header">
     <div class="container header__inner">
       <a href="index.html" class="header__logo">
-       <!-- <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY Français" class="header__logo-img"> -->
-       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">Français</span></span>
+       <!-- <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY FranÃ§ais" class="header__logo-img"> -->
+       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">FranÃ§ais</span></span>
       </a>
 
       <nav class="nav" role="navigation" aria-label="Navigation principale">
         <a href="index.html" class="nav__link">Accueil</a>
-        <a href="download.html" class="nav__link">Télécharger</a>
+        <a href="download.html" class="nav__link">TÃ©lÃ©charger</a>
         <a href="guide.html" class="nav__link">Guide</a>
         <a href="comparatif.html" class="nav__link">Comparatif</a>
         <a href="feedback.html" class="nav__link">Feedback</a>
@@ -68,21 +68,22 @@
           <button class="nav__dropdown-toggle">Plus</button>
           <div class="nav__dropdown-menu">
             <a href="faq.html" class="nav__dropdown-item">FAQ</a>
-            <a href="mentions-legales.html" class="nav__dropdown-item">Mentions Légales</a>
-            <a href="a-propos.html" class="nav__dropdown-item">À propos</a>
+            <a href="licence.html" class="nav__dropdown-item">Licence</a>
+            <a href="mentions-legales.html" class="nav__dropdown-item">Mentions LÃ©gales</a>
+            <a href="a-propos.html" class="nav__dropdown-item">Ã€ propos</a>
             <div style="height: 1px; background: var(--border-color); margin: var(--space-1) 0;"></div>
             <a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank" class="nav__dropdown-item"
-              style="color: var(--color-accent);">Faire un don ??</a>
+              style="color: var(--color-accent);">Faire un don â¤ï¸</a>
           </div>
         </div>
       </nav>
 
       <div style="display: flex; gap: var(--space-2);">
-        <button class="theme-toggle" aria-label="Changer le thème">
-          <span class="theme-toggle__icon--dark">??</span>
-          <span class="theme-toggle__icon--light">??</span>
+        <button class="theme-toggle" aria-label="Changer le thÃ¨me">
+          <span class="theme-toggle__icon--dark">ğŸŒ™</span>
+          <span class="theme-toggle__icon--light">â˜€ï¸</span>
         </button>
-        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">?</button>
+        <button class="nav__toggle" aria-label="Menu" aria-expanded="false">â˜°</button>
       </div>
     </div>
   </header>
@@ -91,32 +92,85 @@
     <!-- Hero Section -->
     <section class="section" style="padding-top: var(--space-8); padding-bottom: var(--space-6);">
       <div class="container container--narrow" style="text-align: center;">
-        <h1 style="font-size: var(--text-3xl); margin-bottom: var(--space-3);">?? Merci !</h1>
+        <h1 style="font-size: var(--text-3xl); margin-bottom: var(--space-3);">ğŸ‰ Merci !</h1>
         <p style="color: var(--text-secondary); font-size: var(--text-lg); margin-bottom: var(--space-4);">
-          Votre téléchargement a commencé automatiquement.
+          Votre tÃ©lÃ©chargement a commencÃ© automatiquement.
         </p>
         <p id="download-fallback" style="color: var(--text-muted); font-size: var(--text-sm);">
-          Le téléchargement n'a pas démarré ?
+          Le tÃ©lÃ©chargement n'a pas dÃ©marrÃ© ?
           <a href="#" id="manual-download-link" style="color: var(--color-primary);">Cliquez ici</a>
         </p>
+      </div>
+    </section>
+
+    <!-- Beta CTA Section - PRIORITY -->
+    <section class="section"
+      style="background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+      <div class="container container--narrow">
+        <div class="card"
+          style="text-align: center; border: 2px solid var(--color-primary); background: var(--bg-primary);">
+          <div style="font-size: 3rem; margin-bottom: var(--space-3);">ğŸ§ª</div>
+          <h2 style="font-size: var(--text-2xl); margin-bottom: var(--space-3);">Participez Ã  la bÃªta publique !</h2>
+          <p
+            style="color: var(--text-secondary); margin-bottom: var(--space-4); max-width: 500px; margin-left: auto; margin-right: auto;">
+            QWERTY FranÃ§ais est en <strong>bÃªta publique</strong>.
+            La version finale sera disponible <strong>courant 2026</strong>.
+          </p>
+
+          <div
+            style="display: flex; flex-direction: column; gap: var(--space-3); max-width: 400px; margin: 0 auto var(--space-4);">
+            <div style="display: flex; align-items: center; gap: var(--space-3); text-align: left;">
+              <span style="font-size: 1.5rem;">âœ…</span>
+              <span style="color: var(--text-secondary);">Donnez votre avis sur la disposition</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); text-align: left;">
+              <span style="font-size: 1.5rem;">âœ…</span>
+              <span style="color: var(--text-secondary);">Recevez les mises Ã  jour en avant-premiÃ¨re</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); text-align: left;">
+              <span style="font-size: 1.5rem;">âœ…</span>
+              <span style="color: var(--text-secondary);">Contribuez Ã  un projet open-source franÃ§ais</span>
+            </div>
+          </div>
+
+          <!-- Beta Email Form -->
+          <form id="beta-email-form" style="max-width: 500px; margin: 0 auto;">
+            <div style="display: flex; gap: var(--space-2);">
+              <input type="email" id="beta-email" name="email" placeholder="votre@email.com" required
+                style="flex: 1; padding: var(--space-3); border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-primary); color: var(--text-primary); font-size: var(--text-base);">
+              <button type="submit" class="btn btn--primary" id="beta-submit-btn" style="white-space: nowrap;">
+                Devenir bÃªta-testeur ğŸš€
+              </button>
+            </div>
+          </form>
+
+          <p id="beta-success"
+            style="display: none; color: var(--color-success); margin-top: var(--space-3); font-weight: 600;">
+            âœ… Merci ! Vous recevrez bientÃ´t un email de feedback.
+          </p>
+
+          <p style="color: var(--text-muted); font-size: var(--text-sm); margin-top: var(--space-4);">
+            ğŸ”’ Votre email ne sera utilisÃ© que pour le feedback bÃªta et ne sera jamais partagÃ©.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Next Steps Section -->
     <section class="section">
       <div class="container container--narrow">
-        <h2 style="text-align: center; margin-bottom: var(--space-6);">?? Prochaines étapes</h2>
+        <h2 style="text-align: center; margin-bottom: var(--space-6);">ğŸ“¦ Prochaines Ã©tapes</h2>
 
         <div style="display: grid; gap: var(--space-4);">
           <div class="card" style="display: flex; align-items: flex-start; gap: var(--space-4);">
             <div
               style="font-size: 2rem; background: var(--bg-secondary); padding: var(--space-3); border-radius: var(--radius-md);">
-              1??</div>
+              1ï¸âƒ£</div>
             <div>
-              <h3 style="margin-bottom: var(--space-2);">Installez QWERTY Français</h3>
+              <h3 style="margin-bottom: var(--space-2);">Installez QWERTY FranÃ§ais</h3>
               <p style="color: var(--text-secondary); margin-bottom: var(--space-2);">
-                Lancez le fichier téléchargé et suivez les instructions. Un avertissement Windows peut apparaître ?
-                cliquez « Informations complémentaires » puis « Exécuter quand même ».
+                Lancez le fichier tÃ©lÃ©chargÃ© et suivez les instructions. Un avertissement Windows peut apparaÃ®tre â†’
+                cliquez Â« Informations complÃ©mentaires Â» puis Â« ExÃ©cuter quand mÃªme Â».
               </p>
               <a href="download.html#smartscreen-details"
                 style="color: var(--color-primary); font-size: var(--text-sm);">Pourquoi cet avertissement ?</a>
@@ -126,22 +180,22 @@
           <div class="card" style="display: flex; align-items: flex-start; gap: var(--space-4);">
             <div
               style="font-size: 2rem; background: var(--bg-secondary); padding: var(--space-3); border-radius: var(--radius-md);">
-              2??</div>
+              2ï¸âƒ£</div>
             <div>
-              <h3 style="margin-bottom: var(--space-2);">Découvrez les 5 changements</h3>
+              <h3 style="margin-bottom: var(--space-2);">DÃ©couvrez les 5 changements</h3>
               <p style="color: var(--text-secondary); margin-bottom: var(--space-2);">
-                QWERTY Français ne change pas vos habitudes de QWERTY. En 5 minutes, vous saurez tout
+                QWERTY FranÃ§ais ne change pas vos habitudes de QWERTY. En 5 minutes, vous saurez tout
                 !
               </p>
               <a href="guide.html" class="btn btn--secondary" style="margin-top: var(--space-2);">Lire le guide rapide
-                ?</a>
+                â†’</a>
             </div>
           </div>
 
           <div class="card" style="display: flex; align-items: flex-start; gap: var(--space-4);">
             <div
               style="font-size: 2rem; background: var(--bg-secondary); padding: var(--space-3); border-radius: var(--radius-md);">
-              3??</div>
+              3ï¸âƒ£</div>
             <div>
               <h3 style="margin-bottom: var(--space-2);">Testez en ligne</h3>
               <p style="color: var(--text-secondary); margin-bottom: var(--space-2);">
@@ -150,7 +204,7 @@
               </p>
               <a href="index.html#tester" class="btn btn--secondary" style="margin-top: var(--space-2);">Ouvrir le
                 testeur
-                ?</a>
+                â†’</a>
             </div>
           </div>
         </div>
@@ -160,10 +214,10 @@
     <!-- Share Section -->
     <section class="section" style="background: var(--bg-secondary); border-top: 1px solid var(--border-color);">
       <div class="container container--narrow" style="text-align: center;">
-        <h2 style="margin-bottom: var(--space-3);">?? Parlez-en autour de vous</h2>
+        <h2 style="margin-bottom: var(--space-3);">â¤ï¸ Parlez-en autour de vous</h2>
         <p
           style="color: var(--text-secondary); margin-bottom: var(--space-6); max-width: 500px; margin-left: auto; margin-right: auto;">
-          QWERTY Français est gratuit et open-source. Si vous l'aimez, partagez-le !
+          QWERTY FranÃ§ais est gratuit et open-source. Si vous l'aimez, partagez-le !
         </p>
 
         <div
@@ -171,7 +225,7 @@
           <a href="https://twitter.com/intent/tweet?text=Je%20viens%20de%20d%C3%A9couvrir%20QWERTY%20Fran%C3%A7ais%2C%20le%20clavier%20id%C3%A9al%20pour%20dev%20sans%20sacrifier%20le%20fran%C3%A7ais%20!%20%F0%9F%87%AB%F0%9F%87%B7%E2%8C%A8%EF%B8%8F&url=https%3A%2F%2Fqwertyfrancais.fr"
             target="_blank" class="btn btn--secondary"
             style="display: inline-flex; align-items: center; gap: var(--space-2);">
-            <span>??</span> Partager sur X
+            <span>ğ•</span> Partager sur X
           </a>
           <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fqwertyfrancais.fr" target="_blank"
             class="btn btn--secondary" style="display: inline-flex; align-items: center; gap: var(--space-2);">
@@ -182,11 +236,11 @@
         <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
           <a href="https://discord.gg/nYknqshJz3" target="_blank"
             style="color: var(--text-secondary); text-decoration: none;">
-            ?? Rejoindre le Discord
+            ğŸ’¬ Rejoindre le Discord
           </a>
           <a href="https://github.com/AntoineGuerra/qwerty-francais" target="_blank"
             style="color: var(--text-secondary); text-decoration: none;">
-            ? Star sur GitHub
+            â­ Star sur GitHub
           </a>
           <a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank"
             style="color: var(--color-accent); text-decoration: none; font-weight: 600;">
@@ -198,26 +252,26 @@
     <!-- Help Section -->
     <section class="section">
       <div class="container container--narrow" style="text-align: center;">
-        <h2 style="margin-bottom: var(--space-6);">?? Besoin d'aide ?</h2>
+        <h2 style="margin-bottom: var(--space-6);">ğŸ’¬ Besoin d'aide ?</h2>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
           <a href="faq.html" class="card" style="text-decoration: none; text-align: center; padding: var(--space-5);">
-            <div style="font-size: 2rem; margin-bottom: var(--space-2);">?</div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">â“</div>
             <strong style="color: var(--text-primary);">FAQ</strong>
-            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Questions fréquentes</p>
+            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Questions frÃ©quentes</p>
           </a>
 
           <a href="aide.html" class="card" style="text-decoration: none; text-align: center; padding: var(--space-5);">
-            <div style="font-size: 2rem; margin-bottom: var(--space-2);">??</div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">ğŸ“–</div>
             <strong style="color: var(--text-primary);">Aide</strong>
-            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Tous les caractères</p>
+            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Tous les caractÃ¨res</p>
           </a>
 
           <a href="feedback.html" class="card"
             style="text-decoration: none; text-align: center; padding: var(--space-5);">
-            <div style="font-size: 2rem; margin-bottom: var(--space-2);">??</div>
+            <div style="font-size: 2rem; margin-bottom: var(--space-2);">ğŸ’¡</div>
             <strong style="color: var(--text-primary);">Feedback</strong>
-            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Signaler un problème</p>
+            <p style="color: var(--text-muted); font-size: var(--text-sm); margin: 0;">Signaler un problÃ¨me</p>
           </a>
 
         </div>
@@ -230,10 +284,10 @@
       <div class="footer__inner">
         <div class="footer__brand">
           <div class="footer__logo">
-       <!-- <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY Français" class="header__logo-img"> -->
-       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">Français</span></span>
+       <!-- <img src="assets/logo-qwerty-francais.png" alt="Logo QWERTY FranÃ§ais" class="header__logo-img"> -->
+       <span style="font-weight: 800; font-size: 1.5rem; color: var(--text-primary);">QWERTY <span style="color: var(--color-primary);">FranÃ§ais</span></span>
           </div>
-          <p class="footer__tagline">L'AZERTY amélioré... euh non, le QWERTY maîtrisé !</p>
+          <p class="footer__tagline">Le QWERTY amÃ©liorÃ©, pensÃ© pour les francophones.</p>
         </div>
 
         <div class="footer__links">
@@ -241,7 +295,7 @@
             <h4>Navigation</h4>
             <ul>
               <li><a href="index.html">Accueil</a></li>
-              <li><a href="download.html">Télécharger</a></li>
+              <li><a href="download.html">TÃ©lÃ©charger</a></li>
               <li><a href="guide.html">Guide rapide</a></li>
               <li><a href="comparatif.html">Comparatif</a></li>
               <li><a href="feedback.html">Feedback</a></li>
@@ -251,8 +305,8 @@
           <div class="footer__column">
             <h4>Ressources</h4>
             <ul>
-              <li><a href="images/carte-complete.svg" target="_blank">Carte complète</a></li>
-              <li><a href="images/carte-simplifiee.svg" target="_blank">Carte simplifiée</a></li>
+              <li><a href="images/carte-complete.svg" target="_blank">Carte complÃ¨te</a></li>
+              <li><a href="images/carte-simplifiee.svg" target="_blank">Carte simplifiÃ©e</a></li>
               <li><a href="https://github.com/AntoineGuerra/qwerty-francais" target="_blank">GitHub</a></li>
             </ul>
           </div>
@@ -266,17 +320,17 @@
             <ul>
               <li><a href="mailto:contact@qwertyfrancais.fr">Email</a></li>
               <li><a href="https://www.paypal.com/paypalme/azertyglobal" target="_blank"
-                  style="color: var(--color-accent); font-weight: 600;">Faire un don ??</a></li>
+                  style="color: var(--color-accent); font-weight: 600;">Faire un don â¤ï¸</a></li>
             </ul>
           </div>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <span>© 2017–2026 QWERTY Français — Antoine OLIVIER</span>
+        <span>Â© 2017â€“2026 QWERTY FranÃ§ais â€” Antoine OLIVIER</span>
         <span>
-          <a href="mentions-legales.html" style="color: inherit; text-decoration: none;">Mentions Légales</a> •
-          Fait avec ?? pour les Français
+          <a href="mentions-legales.html" style="color: inherit; text-decoration: none;">Mentions LÃ©gales</a> â€¢
+          Fait avec â¤ï¸ pour les FranÃ§ais
         </span>
       </div>
     </div>
@@ -303,6 +357,57 @@
       if (manualLink && downloadUrl) {
         manualLink.href = downloadUrl;
         manualLink.target = '_blank';
+      }
+    })();
+
+    // Beta email form submission
+    (function () {
+      const form = document.getElementById('beta-email-form');
+      const emailInput = document.getElementById('beta-email');
+      const submitBtn = document.getElementById('beta-submit-btn');
+      const successMsg = document.getElementById('beta-success');
+
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+
+          const email = emailInput.value.trim();
+          if (!email) return;
+
+          // Loading state
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Envoi...';
+
+          try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              body: JSON.stringify({
+                access_key: 'a4d82407-9cc8-4242-b491-ebd1e736a4fc',
+                subject: 'ğŸ§ª Nouveau bÃªta-testeur QWERTY FranÃ§ais',
+                from_name: 'QWERTY FranÃ§ais Beta',
+                email: email,
+                message: `Nouvel inscrit bÃªta-testeur !\n\nEmail: ${email}\nDate: ${new Date().toISOString()}\nSource: Page Merci`,
+                source: 'merci-page',
+                date: new Date().toISOString()
+              })
+            });
+
+            if (response.ok) {
+              form.style.display = 'none';
+              successMsg.style.display = 'block';
+            } else {
+              throw new Error('Erreur');
+            }
+          } catch (error) {
+            alert('Une erreur est survenue. Veuillez rÃ©essayer.');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Devenir bÃªta-testeur ğŸš€';
+          }
+        });
       }
     })();
   </script>
