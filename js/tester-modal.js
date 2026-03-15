@@ -36,30 +36,9 @@ export function initTesterModal(config = {}) {
 
   const openBtn = document.getElementById('open-tester-btn');
 
-  if (isMobile) {
-    // Hide the tester button on mobile
-    if (openBtn) {
-      openBtn.style.display = 'none';
-    }
-
-    // Add a message explaining desktop-only
-    const heroActions = document.querySelector('.hero__actions');
-    if (heroActions && !document.getElementById('mobile-tester-notice')) {
-      const notice = document.createElement('div');
-      notice.id = 'mobile-tester-notice';
-      notice.style.cssText = 'background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px; text-align: center; margin-bottom: var(--space-4);';
-      notice.innerHTML = `
-        <div style="font-size: 1.2rem; margin-bottom: 8px;">💻</div>
-        <div style="font-size: 14px; color: var(--text-secondary);">
-          Le testeur interactif est disponible uniquement sur ordinateur (Windows, macOS, Linux).
-        </div>
-      `;
-      heroActions.insertBefore(notice, heroActions.firstChild);
-    }
-
-    // Don't initialize the modal on mobile
-    return;
-  }
+  // On mobile, the tester still works with a physical Bluetooth/USB keyboard.
+  // The modal will show a "physical keyboard required" warning (see below)
+  // that auto-dismisses when a keydown event is detected.
 
   const modal = document.getElementById('tester-modal');
   if (!modal) return;
