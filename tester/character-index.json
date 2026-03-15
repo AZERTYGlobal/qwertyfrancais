@@ -1,4 +1,4 @@
-{
+﻿{
     "characters": {
         "0": {
             "codePoint": "U+0030",
@@ -571,19 +571,9 @@
             "methods": [
                 {
                     "type": "direct",
-                    "key": "IntlBackslash",
-                    "layer": "Base",
-                    "recommended": true
-                },
-                {
-                    "type": "direct",
-                    "key": "IntlBackslash",
-                    "layer": "Caps"
-                },
-                {
-                    "type": "direct",
                     "key": "Comma",
-                    "layer": "AltGr"
+                    "layer": "AltGr",
+                    "recommended": true
                 }
             ]
         },
@@ -614,19 +604,9 @@
             "methods": [
                 {
                     "type": "direct",
-                    "key": "IntlBackslash",
-                    "layer": "Shift",
-                    "recommended": true
-                },
-                {
-                    "type": "direct",
-                    "key": "IntlBackslash",
-                    "layer": "Caps+Shift"
-                },
-                {
-                    "type": "direct",
                     "key": "Period",
-                    "layer": "AltGr"
+                    "layer": "AltGr",
+                    "recommended": true
                 }
             ]
         },
@@ -1831,7 +1811,9 @@
             "codePoint": "U+007E",
             "unicodeName": "TILDE",
             "unicodeNameFr": "TILDE",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "approximation"
+            ],
             "methods": [
                 {
                     "type": "direct",
@@ -2004,7 +1986,10 @@
             "codePoint": "U+00B1",
             "unicodeName": "PLUS-MINUS SIGN",
             "unicodeNameFr": "SIGNE PLUS OU MOINS",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "plus ou moins",
+                "plus-moins"
+            ],
             "methods": [
                 {
                     "type": "deadkey",
@@ -3211,7 +3196,9 @@
             "codePoint": "U+0102",
             "unicodeName": "LATIN CAPITAL LETTER A WITH BREVE",
             "unicodeNameFr": "LETTRE A MAJUSCULE AVEC BRÈVE",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "a roumain"
+            ],
             "methods": [
                 {
                     "type": "deadkey",
@@ -3226,7 +3213,9 @@
             "codePoint": "U+0103",
             "unicodeName": "LATIN SMALL LETTER A WITH BREVE",
             "unicodeNameFr": "LETTRE A MINUSCULE AVEC BRÈVE",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "a roumain"
+            ],
             "methods": [
                 {
                     "type": "deadkey",
@@ -3429,7 +3418,9 @@
             "codePoint": "U+011E",
             "unicodeName": "LATIN CAPITAL LETTER G WITH BREVE",
             "unicodeNameFr": "LETTRE G MAJUSCULE AVEC BRÈVE",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "g turc"
+            ],
             "methods": [
                 {
                     "type": "deadkey",
@@ -3444,7 +3435,9 @@
             "codePoint": "U+011F",
             "unicodeName": "LATIN SMALL LETTER G WITH BREVE",
             "unicodeNameFr": "LETTRE G MINUSCULE AVEC BRÈVE",
-            "frenchAliases": [],
+            "frenchAliases": [
+                "g turc"
+            ],
             "methods": [
                 {
                     "type": "deadkey",
@@ -4234,7 +4227,7 @@
         "̀": {
             "codePoint": "U+0300",
             "unicodeName": "COMBINING GRAVE ACCENT",
-            "unicodeNameFr": "COMBINATOIRE ACCENT GRAVE",
+            "unicodeNameFr": "ACCENT GRAVE COMBINANT",
             "frenchAliases": [],
             "methods": [
                 {
@@ -4266,7 +4259,7 @@
         "̃": {
             "codePoint": "U+0303",
             "unicodeName": "COMBINING TILDE",
-            "unicodeNameFr": "COMBINATOIRE TILDE",
+            "unicodeNameFr": "TILDE COMBINANT",
             "frenchAliases": [],
             "methods": [
                 {
@@ -5893,7 +5886,7 @@
         "⇐": {
             "codePoint": "U+21D0",
             "unicodeName": "LEFTWARDS DOUBLE ARROW",
-            "unicodeNameFr": "VERS LA GAUCHE DOUBLE FLÈCHE",
+            "unicodeNameFr": "DOUBLE FLÈCHE VERS LA GAUCHE",
             "frenchAliases": [],
             "methods": [
                 {
@@ -5914,7 +5907,7 @@
         "⇑": {
             "codePoint": "U+21D1",
             "unicodeName": "UPWARDS DOUBLE ARROW",
-            "unicodeNameFr": "VERS LE HAUT DOUBLE FLÈCHE",
+            "unicodeNameFr": "DOUBLE FLÈCHE VERS LE HAUT",
             "frenchAliases": [],
             "methods": [
                 {
@@ -5935,7 +5928,7 @@
         "⇒": {
             "codePoint": "U+21D2",
             "unicodeName": "RIGHTWARDS DOUBLE ARROW",
-            "unicodeNameFr": "VERS LA DROITE DOUBLE FLÈCHE",
+            "unicodeNameFr": "DOUBLE FLÈCHE VERS LA DROITE",
             "frenchAliases": [
                 "implique"
             ],
@@ -5958,7 +5951,7 @@
         "⇓": {
             "codePoint": "U+21D3",
             "unicodeName": "DOWNWARDS DOUBLE ARROW",
-            "unicodeNameFr": "VERS LE BAS DOUBLE FLÈCHE",
+            "unicodeNameFr": "DOUBLE FLÈCHE VERS LE BAS",
             "frenchAliases": [],
             "methods": [
                 {
@@ -5979,7 +5972,7 @@
         "⇔": {
             "codePoint": "U+21D4",
             "unicodeName": "LEFT RIGHT DOUBLE ARROW",
-            "unicodeNameFr": "GAUCHE DROITE DOUBLE FLÈCHE",
+            "unicodeNameFr": "DOUBLE FLÈCHE GAUCHE-DROITE",
             "frenchAliases": [
                 "equivalent",
                 "si et seulement si"
@@ -6003,7 +5996,7 @@
         "∀": {
             "codePoint": "U+2200",
             "unicodeName": "FOR ALL",
-            "unicodeNameFr": "FOR ALL",
+            "unicodeNameFr": "POUR TOUT",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6103,7 +6096,7 @@
         "∈": {
             "codePoint": "U+2208",
             "unicodeName": "ELEMENT OF",
-            "unicodeNameFr": "ÉLÉMENT OF",
+            "unicodeNameFr": "ÉLÉMENT DE",
             "frenchAliases": [
                 "appartient a",
                 "element de"
@@ -6229,7 +6222,7 @@
         "∝": {
             "codePoint": "U+221D",
             "unicodeName": "PROPORTIONAL TO",
-            "unicodeNameFr": "PROPORTIONAL TO",
+            "unicodeNameFr": "PROPORTIONNEL À",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6276,7 +6269,7 @@
         "∥": {
             "codePoint": "U+2225",
             "unicodeName": "PARALLEL TO",
-            "unicodeNameFr": "PARALLÈLE TO",
+            "unicodeNameFr": "PARALLÈLE À",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6363,7 +6356,7 @@
         "≃": {
             "codePoint": "U+2243",
             "unicodeName": "ASYMPTOTICALLY EQUAL TO",
-            "unicodeNameFr": "ASYMPTOTICALLY ÉGAL TO",
+            "unicodeNameFr": "ASYMPTOTIQUEMENT ÉGAL À",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6384,7 +6377,7 @@
         "≈": {
             "codePoint": "U+2248",
             "unicodeName": "ALMOST EQUAL TO",
-            "unicodeNameFr": "ALMOST ÉGAL TO",
+            "unicodeNameFr": "PRESQUE ÉGAL À",
             "frenchAliases": [
                 "environ egal",
                 "approximativement"
@@ -6423,7 +6416,7 @@
         "≠": {
             "codePoint": "U+2260",
             "unicodeName": "NOT EQUAL TO",
-            "unicodeNameFr": "NON ÉGAL TO",
+            "unicodeNameFr": "DIFFÉRENT DE",
             "frenchAliases": [
                 "different de",
                 "non egal"
@@ -6441,7 +6434,7 @@
         "≡": {
             "codePoint": "U+2261",
             "unicodeName": "IDENTICAL TO",
-            "unicodeNameFr": "IDENTICAL TO",
+            "unicodeNameFr": "IDENTIQUE À",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6462,61 +6455,51 @@
         "≤": {
             "codePoint": "U+2264",
             "unicodeName": "LESS-THAN OR EQUAL TO",
-            "unicodeNameFr": "INFÉRIEUR À OR ÉGAL TO",
+            "unicodeNameFr": "INFÉRIEUR OU ÉGAL À",
             "frenchAliases": [
                 "inferieur ou egal"
             ],
             "methods": [
                 {
                     "type": "direct",
-                    "key": "IntlBackslash",
-                    "layer": "AltGr",
-                    "recommended": true
-                },
-                {
-                    "type": "direct",
                     "key": "Comma",
-                    "layer": "AltGr+Shift"
+                    "layer": "AltGr+Shift",
+                    "recommended": true
                 },
                 {
                     "type": "deadkey",
                     "deadkey": "dk_scientific",
-                    "key": "IntlBackslash",
-                    "layer": "Base"
+                    "key": "Comma",
+                    "layer": "AltGr"
                 }
             ]
         },
         "≥": {
             "codePoint": "U+2265",
             "unicodeName": "GREATER-THAN OR EQUAL TO",
-            "unicodeNameFr": "SUPÉRIEUR À OR ÉGAL TO",
+            "unicodeNameFr": "SUPÉRIEUR OU ÉGAL À",
             "frenchAliases": [
                 "superieur ou egal"
             ],
             "methods": [
                 {
                     "type": "direct",
-                    "key": "IntlBackslash",
+                    "key": "Period",
                     "layer": "AltGr+Shift",
                     "recommended": true
                 },
                 {
-                    "type": "direct",
-                    "key": "Period",
-                    "layer": "AltGr+Shift"
-                },
-                {
                     "type": "deadkey",
                     "deadkey": "dk_scientific",
-                    "key": "IntlBackslash",
-                    "layer": "Shift"
+                    "key": "Period",
+                    "layer": "AltGr"
                 }
             ]
         },
         "⊂": {
             "codePoint": "U+2282",
             "unicodeName": "SUBSET OF",
-            "unicodeNameFr": "SOUS-ENSEMBLE OF",
+            "unicodeNameFr": "SOUS-ENSEMBLE DE",
             "frenchAliases": [
                 "inclus dans",
                 "sous-ensemble"
@@ -6534,7 +6517,7 @@
         "⊕": {
             "codePoint": "U+2295",
             "unicodeName": "CIRCLED PLUS",
-            "unicodeNameFr": "CIRCLED PLUS",
+            "unicodeNameFr": "PLUS CERCLÉ",
             "frenchAliases": [],
             "methods": [
                 {
@@ -6583,7 +6566,10 @@
         "codePoint": "U+00AC",
         "unicodeName": "NOT SIGN",
         "unicodeNameFr": "SIGNE NON LOGIQUE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "negation logique",
+            "non"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6598,7 +6584,10 @@
         "codePoint": "U+00B1",
         "unicodeName": "PLUS-MINUS SIGN",
         "unicodeNameFr": "SIGNE PLUS OU MOINS",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "plus ou moins",
+            "plus-moins"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6619,7 +6608,11 @@
         "codePoint": "U+00D7",
         "unicodeName": "MULTIPLICATION SIGN",
         "unicodeNameFr": "SIGNE MULTIPLICATION",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "fois",
+            "multiplié",
+            "x"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6640,7 +6633,10 @@
         "codePoint": "U+00F7",
         "unicodeName": "DIVISION SIGN",
         "unicodeNameFr": "SIGNE DIVISION",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "diviser",
+            "obelus"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6774,7 +6770,7 @@
     "⇐": {
         "codePoint": "U+21D0",
         "unicodeName": "LEFTWARDS DOUBLE ARROW",
-        "unicodeNameFr": "DOUBLE FLÈCHE GAUCHE",
+        "unicodeNameFr": "DOUBLE FLÈCHE VERS LA GAUCHE",
         "frenchAliases": [],
         "methods": [
             {
@@ -6789,7 +6785,7 @@
     "⇑": {
         "codePoint": "U+21D1",
         "unicodeName": "UPWARDS DOUBLE ARROW",
-        "unicodeNameFr": "DOUBLE FLÈCHE HAUT",
+        "unicodeNameFr": "DOUBLE FLÈCHE VERS LE HAUT",
         "frenchAliases": [],
         "methods": [
             {
@@ -6804,8 +6800,10 @@
     "⇒": {
         "codePoint": "U+21D2",
         "unicodeName": "RIGHTWARDS DOUBLE ARROW",
-        "unicodeNameFr": "DOUBLE FLÈCHE DROITE",
-        "frenchAliases": [],
+        "unicodeNameFr": "DOUBLE FLÈCHE VERS LA DROITE",
+        "frenchAliases": [
+            "implique"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6819,7 +6817,7 @@
     "⇓": {
         "codePoint": "U+21D3",
         "unicodeName": "DOWNWARDS DOUBLE ARROW",
-        "unicodeNameFr": "DOUBLE FLÈCHE BAS",
+        "unicodeNameFr": "DOUBLE FLÈCHE VERS LE BAS",
         "frenchAliases": [],
         "methods": [
             {
@@ -6835,7 +6833,10 @@
         "codePoint": "U+21D4",
         "unicodeName": "LEFT RIGHT DOUBLE ARROW",
         "unicodeNameFr": "DOUBLE FLÈCHE GAUCHE-DROITE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "equivalent",
+            "si et seulement si"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6910,7 +6911,9 @@
         "codePoint": "U+2206",
         "unicodeName": "INCREMENT",
         "unicodeNameFr": "DELTA MAJUSCULE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "delta"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6925,7 +6928,9 @@
         "codePoint": "U+2207",
         "unicodeName": "NABLA",
         "unicodeNameFr": "NABLA",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "gradient"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -6940,7 +6945,9 @@
         "codePoint": "U+2208",
         "unicodeName": "ELEMENT OF",
         "unicodeNameFr": "ÉLÉMENT DE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "appartient a"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -7195,7 +7202,10 @@
         "codePoint": "U+2248",
         "unicodeName": "ALMOST EQUAL TO",
         "unicodeNameFr": "PRESQUE ÉGAL À",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "approximativement",
+            "environ egal"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -7225,7 +7235,9 @@
         "codePoint": "U+2260",
         "unicodeName": "NOT EQUAL TO",
         "unicodeNameFr": "DIFFÉRENT DE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "non egal"
+        ],
         "methods": [
             {
                 "type": "deadkey",
@@ -7254,30 +7266,44 @@
     "≤": {
         "codePoint": "U+2264",
         "unicodeName": "LESS-THAN OR EQUAL TO",
-        "unicodeNameFr": "INFÉRIEUR OU ÉGAL",
-        "frenchAliases": [],
+        "unicodeNameFr": "INFÉRIEUR OU ÉGAL À",
+        "frenchAliases": [
+            "inferieur ou egal"
+        ],
         "methods": [
+            {
+                "type": "direct",
+                "key": "Comma",
+                "layer": "AltGr+Shift",
+                "recommended": true
+            },
             {
                 "type": "deadkey",
                 "deadkey": "dk_scientific",
-                "key": "IntlBackslash",
-                "layer": "Base",
-                "recommended": true
+                "key": "Comma",
+                "layer": "AltGr"
             }
         ]
     },
     "≥": {
         "codePoint": "U+2265",
         "unicodeName": "GREATER-THAN OR EQUAL TO",
-        "unicodeNameFr": "SUPÉRIEUR OU ÉGAL",
-        "frenchAliases": [],
+        "unicodeNameFr": "SUPÉRIEUR OU ÉGAL À",
+        "frenchAliases": [
+            "superieur ou egal"
+        ],
         "methods": [
+            {
+                "type": "direct",
+                "key": "Period",
+                "layer": "AltGr+Shift",
+                "recommended": true
+            },
             {
                 "type": "deadkey",
                 "deadkey": "dk_scientific",
-                "key": "IntlBackslash",
-                "layer": "Shift",
-                "recommended": true
+                "key": "Period",
+                "layer": "AltGr"
             }
         ]
     },
@@ -7285,7 +7311,10 @@
         "codePoint": "U+2282",
         "unicodeName": "SUBSET OF",
         "unicodeNameFr": "SOUS-ENSEMBLE DE",
-        "frenchAliases": [],
+        "frenchAliases": [
+            "inclus dans",
+            "sous-ensemble"
+        ],
         "methods": [
             {
                 "type": "deadkey",

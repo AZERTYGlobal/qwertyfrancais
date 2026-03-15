@@ -123,6 +123,11 @@
   gap: var(--key-gap);
 }
 
+/* Last key in each row stretches to align right edges (ANSI rows have different key counts) */
+.keyboard-row .key:last-child {
+  flex-grow: 1;
+}
+
 /* ============================================
    Key Base Styles
    ============================================ */

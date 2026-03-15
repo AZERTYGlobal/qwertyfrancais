@@ -2,11 +2,14 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Testeur QWERTY Français</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="keyboard.css">
     <style>
+        * { box-sizing: border-box; }
+
         body {
             background-color: var(--bg-primary);
             color: var(--text-primary);
@@ -15,55 +18,138 @@
             align-items: center;
             justify-content: center;
             min-height: 100vh;
+            min-height: 100dvh;
             margin: 0;
-            font-family: 'Inter', sans-serif;
+            padding: 1rem;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
+
         .tester-container {
             width: 100%;
             max-width: 1200px;
             background: var(--bg-secondary);
-            padding: 2rem;
+            padding: 1.5rem;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.1);
         }
-        h1 { margin-top: 0; }
+
+        .tester-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.75rem;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        .btn-clear {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            background: var(--bg-primary);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .btn-clear:hover {
+            background: var(--border-color);
+        }
+
         #modal-output {
             width: 100%;
-            height: 100px;
-            margin-bottom: 20px;
+            height: 80px;
+            margin-bottom: 0.75rem;
             padding: 10px;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            line-height: 1.5;
             border: 1px solid var(--border-color);
             background: var(--bg-primary);
             color: var(--text-primary);
             border-radius: 8px;
+            resize: none;
+        }
+
+        /* Prevent virtual keyboard on mobile — the user has an external physical keyboard */
+        #modal-output:focus {
+            outline: 2px solid var(--color-accent, #00c8ff);
+            outline-offset: -1px;
+        }
+
+        .keyboard-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        /* ── Tablet (portrait, ~768px) ── */
+        @media (max-width: 900px) {
+            body { padding: 0.5rem; }
+            .tester-container { padding: 1rem; border-radius: 8px; }
+            h1 { font-size: 1.25rem; }
+            #modal-output { height: 60px; font-size: 1rem; }
+        }
+
+        /* ── Phone (landscape or small tablet) ── */
+        @media (max-width: 600px) {
+            body { padding: 0.25rem; justify-content: flex-start; }
+            .tester-container { padding: 0.5rem; border-radius: 6px; box-shadow: none; }
+            h1 { font-size: 1.1rem; }
+            #modal-output { height: 50px; font-size: 0.95rem; margin-bottom: 0.5rem; }
+        }
+
+        /* ── Landscape optimization: minimize vertical space ── */
+        @media (max-height: 500px) {
+            body { padding: 0.25rem; justify-content: flex-start; }
+            .tester-container { padding: 0.5rem; }
+            h1 { font-size: 1rem; }
+            #modal-output { height: 40px; font-size: 0.9rem; margin-bottom: 0.4rem; }
+            .tester-header { margin-bottom: 0.4rem; }
         }
     </style>
 </head>
 <body>
     <div class="tester-container">
-        <h1>Testeur QWERTY Français</h1>
-        <textarea id="modal-output" placeholder="Tapez ici..."></textarea>
-        <div id="modal-keyboard-container"></div>
+        <div class="tester-header">
+            <h1>Testeur QWERTY Français</h1>
+            <button class="btn-clear" id="btn-clear" title="Effacer le texte">Effacer</button>
+        </div>
+        <textarea id="modal-output" inputmode="none" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Connectez votre clavier et tapez ici…"></textarea>
+        <div class="keyboard-wrapper">
+            <div id="modal-keyboard-container"></div>
+        </div>
     </div>
 
     <script type="module">
         import { AZERTYKeyboard } from './keyboard.js';
-        
+
         window.addEventListener('DOMContentLoaded', () => {
+            const output = document.getElementById('modal-output');
             const keyboard = new AZERTYKeyboard('#modal-keyboard-container', {
                 layoutUrl: 'qwerty-francais.json',
                 onKeyClick: (char) => {
-                    const output = document.getElementById('modal-output');
                     output.value += char;
                     output.scrollTop = output.scrollHeight;
                 }
             });
 
+            // Clear button
+            document.getElementById('btn-clear').addEventListener('click', () => {
+                output.value = '';
+                output.focus();
+            });
+
+            // Auto-focus textarea on load
+            output.focus();
+
             // Handle physical keyboard input
             document.addEventListener('keydown', (e) => {
                 const code = e.code;
-                
+
                 // Prevent default behavior for specific navigation/chording keys
                 if (code === 'Tab' || code === 'AltLeft' || code === 'AltRight') {
                     e.preventDefault();
@@ -71,7 +157,7 @@
 
                 if (keyboard) {
                     keyboard.pressKey(code);
-                    
+
                     // Handle modifiers
                     if (code === 'ShiftLeft' || code === 'ShiftRight') keyboard.setShift(true);
                     if (code === 'AltRight') keyboard.setAltGr(true);
@@ -84,15 +170,14 @@
                     if (code === 'Backspace') {
                         if (keyboard.state && keyboard.state.activeDeadKey) {
                             keyboard.clearDeadKey();
-                            e.preventDefault(); // Only prevent default if we cleared a dead key
+                            e.preventDefault();
                         }
-                        // Otherwise let default Backspace happen (delete text)
                         return;
                     }
 
                     // For typing visuals
                     const ignoredKeys = [
-                        'ShiftLeft', 'ShiftRight', 'ControlLeft', 'ControlRight', 
+                        'ShiftLeft', 'ShiftRight', 'ControlLeft', 'ControlRight',
                         'AltLeft', 'AltRight', 'MetaLeft', 'MetaRight', 'CapsLock',
                         'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Escape'
                     ];

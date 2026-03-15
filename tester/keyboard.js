@@ -103,7 +103,7 @@ function getKeyboardRows() {
         { id: 'KeyP', w: 1 },
         { id: 'BracketLeft', w: 1 },
         { id: 'BracketRight', w: 1 },
-        { id: 'Enter', w: 1.5, special: true, label: '⏎', isoEnterTop: true }
+        { id: 'Backslash', w: 1.5 }
       ]
     },
     // Row C (home row)
@@ -122,16 +122,14 @@ function getKeyboardRows() {
         { id: 'KeyL', w: 1 },
         { id: 'Semicolon', w: 1 },
         { id: 'Quote', w: 1 },
-        { id: 'Backslash', w: 1 },
-        { id: 'Enter', w: 1.25, special: true, label: '⏎', isoEnterBottom: true }
+        { id: 'Enter', w: 2.25, special: true, label: '⏎' }
       ]
     },
     // Row B (bottom letter row)
     {
       y: 3,
       keys: [
-        { id: 'ShiftLeft', w: 1.25, special: true, label: '⇧ Maj' },
-        { id: 'IntlBackslash', w: 1 },
+        { id: 'ShiftLeft', w: 2.25, special: true, label: '⇧ Maj' },
         { id: 'KeyZ', w: 1 },
         { id: 'KeyX', w: 1 },
         { id: 'KeyC', w: 1 },
@@ -142,7 +140,7 @@ function getKeyboardRows() {
         { id: 'Comma', w: 1 },
         { id: 'Period', w: 1 },
         { id: 'Slash', w: 1 },
-        { id: 'ShiftRight', w: 2.85, special: true, label: '⇧ Maj' }
+        { id: 'ShiftRight', w: 2.75, special: true, label: '⇧ Maj' }
       ]
     },
     // Row A (space row) - Platform-specific
